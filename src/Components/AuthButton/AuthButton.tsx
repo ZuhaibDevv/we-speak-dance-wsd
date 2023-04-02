@@ -2,8 +2,9 @@ import {StyleSheet, Text, View, Pressable} from 'react-native';
 import React from 'react';
 
 interface buttonProps {
-  input1: String;
-  input2: String;
+  input1?: String;
+  input2?: String;
+  text?: String
 }
 
 export default function AuthButton(props: buttonProps) {
@@ -12,7 +13,7 @@ export default function AuthButton(props: buttonProps) {
       <Text className={`text-center ${
         props.input1 && props.input2 !== '' ? 'text-white' : 'text-[#ffffff66]'
       } text-base font-bold `}>
-      Sign Up
+      {props.text}
       </Text>
     </Pressable>
   );
