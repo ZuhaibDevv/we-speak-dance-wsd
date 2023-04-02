@@ -7,7 +7,7 @@ import {
 function App(): JSX.Element {
   return (
     <SafeAreaView >
-      <Text className="h-screen bg-black text-white">Initial Commit</Text>
+      <Text className="h-screen bg-black text-white">Moving ahead</Text>
     </SafeAreaView>
   );
 }
