@@ -1,1 +1,1 @@
-export {}
+export {default as AuthHeader} from './AuthHeader/AuthHeader'

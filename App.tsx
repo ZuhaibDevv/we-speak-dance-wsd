@@ -3,11 +3,12 @@ import {
   SafeAreaView,
   Text,
 } from 'react-native';
+import AppRoutes from './src/AppRoutes';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView >
-      <Text className="h-screen bg-black text-white">Moving ahead</Text>
+      <AppRoutes />
     </SafeAreaView>
   );
 }
