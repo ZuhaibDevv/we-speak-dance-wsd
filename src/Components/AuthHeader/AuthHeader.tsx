@@ -3,8 +3,8 @@ import React from 'react'
 import { BackButton } from '../../Assets/Images'
 
 interface HeaderProps {
-    middleText: string,
-    rightText: string
+    middleText?: string,
+    rightText?: string
 }
 
 const Header = ({

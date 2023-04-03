@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import React, {useState} from 'react';
 import {TextInput} from 'react-native-paper';
-import {LoginBackground, Logo, BackButton} from '../../Assets/Images';
+import {LoginBackground} from '../../Assets/Images';
 import CheckBox from '@react-native-community/checkbox';
 import AuthButton from '../../Components/AuthButton/AuthButton';
 

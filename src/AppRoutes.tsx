@@ -5,11 +5,15 @@ import { Login } from './Screens'
 import Signup from './Screens/authScreens/Signup'
 import { StatusBar } from 'react-native/Libraries/Components/StatusBar/StatusBar'
 import SignupProfile from './Screens/authScreens/SignupProfile'
+import ForgetPassword from './Screens/authScreens/ForgetPassword'
+import ForgetPasswordTwo from './Screens/authScreens/ForgetPasswordTwo'
+import ChangeEmail from './Screens/authScreens/ChangeEmail'
+import ChangePassword from './Screens/authScreens/ChangePassword'
 
 const AppRoutes = () => {
   return (
     <SafeAreaView className='flex h-ful'>
-    <SignupProfile />
+    <ChangePassword />
     </SafeAreaView>
   )
 }
