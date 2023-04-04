@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, Keyboard, StatusBar, Pressable } from 'react-native'
+import { StyleSheet, Text, View, Image, Keyboard, StatusBar, Pressable, SafeAreaView } from 'react-native'
 import React, { useState } from 'react'
 import { TextInput } from 'react-native-paper';
 import { LoginBackground, Logo, BackButton } from '../../Assets/Images'
@@ -9,12 +9,12 @@ const Login = () => {
   const [password, setPassword] = useState<string>('')
 
   return (
-    <View className='bg-[#1d1d1b] h-full flex  px-2 '>
-      <StatusBar
+    <SafeAreaView className='bg-[#1d1d1b] h-full flex px-2 '>
+      {/* <StatusBar
         animated={true}
-        backgroundColor="transparent"
+        backgroundColor="#1d1d1d"
         barStyle={"dark-content"}
-        translucent={true} />
+        translucent={true} /> */}
       <View className='flex h-full '>
         <Image className='absolute  w-screen h-screen' source={LoginBackground} />
         <AuthHeader middleText='Login' rightText='Signup' />
@@ -57,7 +57,7 @@ const Login = () => {
         </View>
 
       </View>
-    </View>
+    </SafeAreaView>
   )
 }
 
