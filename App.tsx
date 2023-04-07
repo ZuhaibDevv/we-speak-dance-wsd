@@ -3,12 +3,16 @@ import {
   SafeAreaView,
   Text,
 } from 'react-native';
+import AppRoutes from './src/AppRoutes';
+import { NavigationContainer } from '@react-navigation/native';
 
 function App(): JSX.Element {
   return (
+    // <NavigationContainer>
     <SafeAreaView >
-      <Text className="h-screen bg-black text-white">Initial Commit</Text>
+      <AppRoutes />
     </SafeAreaView>
+    // </NavigationContainer>
   );
 }
 
