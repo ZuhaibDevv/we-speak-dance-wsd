@@ -5,6 +5,7 @@ import {
 } from 'react-native';
 import AppRoutes from './src/AppRoutes';
 
+
 function App(): JSX.Element {
   return (
     <SafeAreaView >

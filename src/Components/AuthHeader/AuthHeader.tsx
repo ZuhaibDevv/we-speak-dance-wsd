@@ -12,7 +12,7 @@ const Header = ({
     rightText
 }: HeaderProps) => {
     return (
-        <View className='flex flex-row justify-between items-center my-2'>
+        <View className='flex flex-row justify-between items-center mt-12'>
             <View><Image source={BackButton} /></View>
             <View>
                 <Text className='text-white text-base leading-5 font-medium'>{middleText}</Text>
