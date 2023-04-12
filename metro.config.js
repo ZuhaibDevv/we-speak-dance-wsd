@@ -10,8 +10,17 @@ module.exports = {
     getTransformOptions: async () => ({
       transform: {
         experimentalImportSupport: false,
-        inlineRequires: true,
+        inlineRequires: false,
       },
     }),
   },
+  // dependencies: {
+  //   'react-native-video': {
+  //     platforms: {
+  //       android: {
+  //         sourceDir: './node_modules/react-native-video/android-exoplayer',
+  //       },
+  //     },
+  //   },
+  // },
 };

@@ -1,9 +1,9 @@
-import { StyleSheet, Text, View,  } from 'react-native'
-import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
-import { Login } from './Screens'
+
+import {StatusBar, StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import {SafeAreaView} from 'react-native-safe-area-context';
+import {Login, Dance} from './Screens';
 import Signup from './Screens/authScreens/Signup'
-import { StatusBar } from 'react-native/Libraries/Components/StatusBar/StatusBar'
 import SignupProfile from './Screens/authScreens/SignupProfile'
 import ForgetPassword from './Screens/authScreens/ForgetPassword'
 import ForgetPasswordTwo from './Screens/authScreens/ForgetPasswordTwo'
@@ -12,12 +12,20 @@ import ChangePassword from './Screens/authScreens/ChangePassword'
 
 const AppRoutes = () => {
   return (
-    <SafeAreaView className='flex h-ful'>
-    <ChangePassword />
+    <SafeAreaView className="flex   h-full ">
+      <StatusBar
+        animated={true}
+        backgroundColor="transparent"
+        barStyle={'dark-content'}
+        translucent={true}
+      />
+      <Dance />
+
+
     </SafeAreaView>
-  )
-}
+  );
+};
 
-export default AppRoutes
+export default AppRoutes;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
