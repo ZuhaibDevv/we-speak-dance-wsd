@@ -1,7 +1,7 @@
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {Login, Dance} from './Screens';
+import {Login, Dance, Leaderboard} from './Screens';
 
 const AppRoutes = () => {
   return (
@@ -12,7 +12,7 @@ const AppRoutes = () => {
         barStyle={'dark-content'}
         translucent={true}
       />
-      <Dance />
+      <Leaderboard />
     </SafeAreaView>
   );
 };
