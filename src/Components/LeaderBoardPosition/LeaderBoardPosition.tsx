@@ -4,8 +4,17 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+interface leaderboardPositionProps {
+  image: any;
+  position: string;
+  containerStyle: string;
+}
 
-const LeaderBoardPosition = ({image, position, containerStyle}) => {
+const LeaderBoardPosition = ({
+  image,
+  position,
+  containerStyle,
+}: leaderboardPositionProps) => {
   return (
     <View className={`${containerStyle} relative items-center `}>
       <View className="absolute -top-4  z-10 bg-[#CC4A17] w-8 h-8 justify-center items-center  rounded-full ">

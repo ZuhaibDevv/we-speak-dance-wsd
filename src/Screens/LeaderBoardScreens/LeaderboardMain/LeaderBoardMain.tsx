@@ -10,7 +10,7 @@ import {IconAvatar2} from '../../../Assets/Images';
 const LeaderBoardMain = () => {
   return (
     <View className="flex-1 px-4  bg-[#1d1b1b]">
-      <LeaderBoardHeader middleText="Leaderboard" />
+      <LeaderBoardHeader middleText="Leaderboard" rightText="" />
       <View
         className="bg-white h-[1px] opacity-5"
         style={{marginTop: hp('6%')}}></View>
