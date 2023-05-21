@@ -54,84 +54,87 @@ const DanceBattleHome = () => {
           </Text>
         </Pressable>
       </View>
-      <ScrollView>
-        {[1, 2, 3, 4, 5, 6].map((e, i) => (
-          <View style={styles.battleContainer}>
-            <View style={styles.battle}>
-              <Pressable style={styles.voteButton} className="absolute z-10">
-                <Image source={IconVote} />
-              </Pressable>
+      {tab === 1 && (
+        <ScrollView>
+          {[1, 2, 3, 4, 5, 6].map((e, i) => (
+            <View style={styles.battleContainer}>
+              <View style={styles.battle}>
+                <Pressable style={styles.voteButton} className="absolute z-10">
+                  <Image source={IconVote} />
+                </Pressable>
 
-              <View className="flex-1 ">
-                <View className="flex-4/5">
-                  <Image
-                    source={SampleBattleImage}
-                    className="w-full   "
-                    resizeMode="cover"
-                  />
-                </View>
-                <View
-                  style={styles.userProfile}
-                  className=" flex-1/5 flex-row  items-center gap-2 ">
-                  <View>
-                    <Image source={IconAvatar} />
+                <View className="flex-1 ">
+                  <View className="flex-4/5">
+                    <Image
+                      source={SampleBattleImage}
+                      className="w-full   "
+                      resizeMode="cover"
+                    />
                   </View>
-                  <View>
-                    <Text className="text-white font-bold leading-5 text-lg">
-                      vandanaHart
-                    </Text>
-                    <View className="bg-[#CC4A17] opacity-25 rounded-sm max-w-fit ">
-                      <Text className="text-white text-xs px-[4%] max-w-fit ">
-                        Health care
+                  <View
+                    style={styles.userProfile}
+                    className=" flex-1/5 flex-row  items-center gap-2 ">
+                    <View>
+                      <Image source={IconAvatar} />
+                    </View>
+                    <View>
+                      <Text className="text-white font-bold leading-5 text-lg">
+                        vandanaHart
                       </Text>
+                      <View className="bg-[#CC4A17] opacity-25 rounded-sm max-w-fit ">
+                        <Text className="text-white text-xs px-[4%] max-w-fit ">
+                          Health care
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View className="flex-1 ">
+                  <View className="flex-4/5">
+                    <Image
+                      source={SampleBattleImage2}
+                      className="w-full   "
+                      resizeMode="cover"
+                    />
+                  </View>
+                  <View
+                    style={styles.userProfile}
+                    className=" flex-1/5 flex-row  items-center gap-2 ">
+                    <View>
+                      <Image source={IconAvatar} />
+                    </View>
+                    <View>
+                      <Text className="text-white font-bold leading-5 text-lg">
+                        vandanaHart
+                      </Text>
+                      <View className="bg-[#CC4A17] opacity-25 rounded-sm max-w-fit ">
+                        <Text className="text-white text-xs px-[4%] max-w-fit ">
+                          Social Empowerment
+                        </Text>
+                      </View>
                     </View>
                   </View>
                 </View>
               </View>
-              <View className="flex-1 ">
-                <View className="flex-4/5">
-                  <Image
-                    source={SampleBattleImage2}
-                    className="w-full   "
-                    resizeMode="cover"
-                  />
-                </View>
-                <View
-                  style={styles.userProfile}
-                  className=" flex-1/5 flex-row  items-center gap-2 ">
-                  <View>
-                    <Image source={IconAvatar} />
-                  </View>
-                  <View>
-                    <Text className="text-white font-bold leading-5 text-lg">
-                      vandanaHart
-                    </Text>
-                    <View className="bg-[#CC4A17] opacity-25 rounded-sm max-w-fit ">
-                      <Text className="text-white text-xs px-[4%] max-w-fit ">
-                        Social Empowerment
-                      </Text>
-                    </View>
-                  </View>
-                </View>
+              <View
+                style={{width: wp('95%'), alignSelf: 'center'}}
+                className="h-0.5 bg-[#B3261E]"></View>
+              <View
+                style={{
+                  width: wp('70%'),
+                  marginTop: hp('2%'),
+                  alignSelf: 'center',
+                }}
+                className="opacity-60">
+                <Text style={styles.battleDescription}>
+                  Et eveniet quia a quisquam eligendi aspernatur asperiores
+                  neque.
+                </Text>
               </View>
             </View>
-            <View
-              style={{width: wp('95%'), alignSelf: 'center'}}
-              className="h-0.5 bg-[#B3261E]"></View>
-            <View
-              style={{
-                width: wp('70%'),
-                marginTop: hp('2%'),
-                alignSelf: 'center',
-              }}
-              className="opacity-60">
-              <Text style={styles.battleDescription}>
-                Et eveniet quia a quisquam eligendi aspernatur asperiores neque.
-              </Text>
-            </View>
-          </View>
-        ))}
-      </ScrollView>
+          ))}
+        </ScrollView>
+      )}
     </View>
   );
 };
