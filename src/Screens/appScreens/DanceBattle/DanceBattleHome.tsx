@@ -57,7 +57,7 @@ const DanceBattleHome = () => {
       {tab === 1 && (
         <ScrollView>
           {[1, 2, 3, 4, 5, 6].map((e, i) => (
-            <View style={styles.battleContainer}>
+            <View key={i} style={styles.battleContainer}>
               <View style={styles.battle}>
                 <Pressable style={styles.voteButton} className="absolute z-10">
                   <Image source={IconVote} />
