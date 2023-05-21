@@ -4,7 +4,7 @@ import { TextInput } from 'react-native-paper';
 import { LoginBackground, Logo, BackButton } from '../../Assets/Images'
 import { AuthHeader } from '../../Components'
 
-const Login = () => {
+const Login = ({navigation}:any) => {
   const [email, setEmail] = useState<string>('')
   const [password, setPassword] = useState<string>('')
 
@@ -48,6 +48,9 @@ const Login = () => {
                 onChangeText={text => setEmail(password)}
               />
             </View>
+            <Pressable className='flex text-left items-end' onPress={()=> navigation.navigate("forget-password")}>
+              <Text className='text-gray-300 text-base text-left'>Forgot Password</Text>
+            </Pressable>
           </View>
 
 

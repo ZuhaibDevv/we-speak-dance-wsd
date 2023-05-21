@@ -5,6 +5,9 @@ import {
   Text,
   View,
   ImageBackground,
+  Pressable,
+  TouchableWithoutFeedback,
+  TouchableOpacity
 } from 'react-native';
 import React, {useState} from 'react';
 import {AuthHeader} from '../../Components';
@@ -12,18 +15,18 @@ import {LoginBackground} from '../../Assets/Images';
 import AuthButton from '../../Components/AuthButton/AuthButton';
 import {TextInput} from 'react-native-paper';
 
-export default function ForgetPassword() {
+export default function ForgetPassword({navigation}: any) {
   const [email, setEmail] = useState<string>('');
   return (
-    <ScrollView className="flex h-full bg-[#1d1d1b]">
+    <View className="flex h-full bg-[#1d1d1b]">
       <StatusBar
         animated={true}
         translucent={true}
         backgroundColor="#1d1d1b"
         barStyle={'dark-content'}
       />
-      <ImageBackground source={LoginBackground} className="flex h-screen ">
-        <View className="flex-1 p-2">
+      <ImageBackground source={LoginBackground} className="flex-1 h-screen">
+        <View className="flex-1 p-2 mt-12">
           <AuthHeader middleText="Forgot Password" rightText="Sign Up" />
           <View className="flex-1 justify-between">
             <View className='mt-8'>
@@ -38,13 +41,13 @@ export default function ForgetPassword() {
                 onChangeText={text => setEmail(text)}
               />
             </View>
-            <View>
-              <AuthButton text="Reset Password" input1={email}/>
-            </View>
+            <TouchableOpacity className='z-50' onPress={()=>navigation.navigate('forget-password-two')}>
+              <AuthButton text="Reset Password" input1={email} navigation={navigation} route="forget-password-two"/>
+            </TouchableOpacity>
           </View>
         </View>
       </ImageBackground>
-    </ScrollView>
+    </View>
   );
 }
 

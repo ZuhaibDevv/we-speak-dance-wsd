@@ -16,19 +16,19 @@ import {LoginBackground, Logo, BackButton} from '../../Assets/Images';
 import {AuthHeader} from '../../Components';
 import AuthButton from '../../Components/AuthButton/AuthButton';
 
-const Signup = () => {
+const Signup = ({navigation}:any) => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-      <View className="bg-[#1d1d1b] h-screen flex  px-2 ">
+      <View className="bg-[#1d1d1b] h-full flex  px-2 ">
         <StatusBar
           animated={true}
           backgroundColor="#1d1d1b"
           barStyle={'dark-content'}
           translucent={true}
         />
-        <ImageBackground source={LoginBackground} className="flex h-screen ">
+        <ImageBackground source={LoginBackground} className="fle-1 h-full ">
           <AuthHeader middleText="Login" rightText="Signup" />
 
           <View className=" justify-between flex-1">
