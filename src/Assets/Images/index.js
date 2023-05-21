@@ -15,6 +15,9 @@ export {default as IconHeart} from './IconHeart.png';
 export {default as IconBookmark} from './IconBookmark.png';
 export {default as IconShare} from './IconShare.png';
 export {default as IconInfo} from './IconInfo.png';
+export {default as IconVote} from './IconVote.png';
+export {default as IconSend} from './IconSend.png';
+export {default as SampleBattleImage} from './SampleBattleImage.png';
+export {default as SampleBattleImage2} from './SampleBattleimage2.png';
 
 export {default as ForgetPasswordImage} from './forgot-password.png';
-

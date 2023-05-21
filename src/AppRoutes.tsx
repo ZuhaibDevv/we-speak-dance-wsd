@@ -1,7 +1,13 @@
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {Login, Dance, Leaderboard, LeaderboardWeekly} from './Screens';
+import {
+  Login,
+  Dance,
+  Leaderboard,
+  LeaderboardWeekly,
+  DanceBattleHome,
+} from './Screens';
 import Signup from './Screens/authScreens/Signup';
 import SignupProfile from './Screens/authScreens/SignupProfile';
 import ForgetPassword from './Screens/authScreens/ForgetPassword';
@@ -18,7 +24,7 @@ const AppRoutes = () => {
         barStyle={'dark-content'}
         translucent={true}
       />
-      <LeaderboardWeekly />
+      <DanceBattleHome />
     </SafeAreaView>
   );
 };

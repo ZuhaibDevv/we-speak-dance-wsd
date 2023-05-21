@@ -54,6 +54,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>FormulaCondensed-Bold.otf</string>
+		<string>BeausiteClassicTrial-R.otf</string>
 	</array>
 </dict>
 </plist>

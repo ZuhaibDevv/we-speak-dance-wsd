@@ -15,6 +15,7 @@
 		7699B88040F8A987B510C191 /* libPods-wespeakdance-wespeakdanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-wespeakdance-wespeakdanceTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		4EF795BB25B14391AA2D857F /* FormulaCondensed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CBD8D9FEC46A39B91C729 /* FormulaCondensed-Bold.otf */; };
+		AA53623EF08E48059C5C913B /* BeausiteClassicTrial-R.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2CF5F6D78E24300A8677C1F /* BeausiteClassicTrial-R.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-wespeakdance-wespeakdanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespeakdance-wespeakdanceTests.release.xcconfig"; path = "Target Support Files/Pods-wespeakdance-wespeakdanceTests/Pods-wespeakdance-wespeakdanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		1D4CBD8D9FEC46A39B91C729 /* FormulaCondensed-Bold.otf */ = {isa = PBXFileReference; name = "FormulaCondensed-Bold.otf"; path = "../src/Assets/Fonts/FormulaCondensed-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2CF5F6D78E24300A8677C1F /* BeausiteClassicTrial-R.otf */ = {isa = PBXFileReference; name = "BeausiteClassicTrial-R.otf"; path = "../src/Assets/Fonts/BeausiteClassicTrial-R.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = "PBXGroup";
 			children = (
 				1D4CBD8D9FEC46A39B91C729 /* FormulaCondensed-Bold.otf */,
+				F2CF5F6D78E24300A8677C1F /* BeausiteClassicTrial-R.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				4EF795BB25B14391AA2D857F /* FormulaCondensed-Bold.otf in Resources */,
+				AA53623EF08E48059C5C913B /* BeausiteClassicTrial-R.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
