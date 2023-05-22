@@ -7,13 +7,8 @@ import {
   Leaderboard,
   LeaderboardWeekly,
   DanceBattleHome,
+  TournamentDetails,
 } from './Screens';
-import Signup from './Screens/authScreens/Signup';
-import SignupProfile from './Screens/authScreens/SignupProfile';
-import ForgetPassword from './Screens/authScreens/ForgetPassword';
-import ForgetPasswordTwo from './Screens/authScreens/ForgetPasswordTwo';
-import ChangeEmail from './Screens/authScreens/ChangeEmail';
-import ChangePassword from './Screens/authScreens/ChangePassword';
 
 const AppRoutes = () => {
   return (
@@ -24,7 +19,7 @@ const AppRoutes = () => {
         barStyle={'dark-content'}
         translucent={true}
       />
-      <DanceBattleHome />
+      <TournamentDetails />
     </SafeAreaView>
   );
 };
