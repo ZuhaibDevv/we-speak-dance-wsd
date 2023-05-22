@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
 import { StatusBar } from 'react-native';
 import TournamentFeaturedMain from './src/Screens/appScreens/Tournament/TournamentFeaturedMain';
+import Voting from './src/Screens/appScreens/Voting/Voting';
 
 function App(): JSX.Element {
   return (
@@ -14,7 +15,8 @@ function App(): JSX.Element {
       />
       {/* <AppRoutes /> */}
       {/* <TournamentHome/> */}
-      <TournamentFeaturedMain/>
+      {/* <TournamentFeaturedMain/> */}
+      <Voting/>
     </NavigationContainer>
   );
 }

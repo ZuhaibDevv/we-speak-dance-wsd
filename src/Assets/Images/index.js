@@ -12,4 +12,6 @@ export {default as divider} from './Divider.png'
 export {default as tournamentFeaturedImage} from './tournament-featured.png'
 export {default as cardBottomShadow} from './card-bottom-shadow.png'
 export {default as searchIcon} from './search-icon.png'
+export {default as voteTextImage} from './vote-text.png'
+export {default as voteAvatar} from './vote-avatar.png'
 

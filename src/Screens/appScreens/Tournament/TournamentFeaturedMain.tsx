@@ -49,8 +49,6 @@ const TournamentFeaturedMain = () => {
             />
           ))}
         </View>
-
-        {/* <TournamentFeaturedInner/> */}
         {selected === 0 && <TournamentFeaturedInner />}
 
         {selected === 1 && <TournamentFeaturedMyTourneys />}
