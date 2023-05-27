@@ -64,7 +64,7 @@ const Signup = ({navigation}:any) => {
            <View>
             <Text className='text-gray-500 mb-5'>By submitting, you agree to our <Text className='text-white'>Terms and Conditions</Text> and <Text className='text-white'>Privacy Policy.</Text></Text>
            
-              <AuthButton input1={email} input2={password} text="Sign up"/>
+              <AuthButton input1={email} input2={password} navigation={navigation} route="dance-battle-home" text="Sign up"/>
             </View>
           </View>
         </ImageBackground>

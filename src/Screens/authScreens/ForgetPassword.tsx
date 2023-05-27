@@ -26,7 +26,7 @@ export default function ForgetPassword({navigation}: any) {
         barStyle={'dark-content'}
       />
       <ImageBackground source={LoginBackground} className="flex-1 h-screen">
-        <View className="flex-1 p-2 mt-12">
+        <View className="flex-1 p-2 ">
           <AuthHeader middleText="Forgot Password" rightText="Sign Up" />
           <View className="flex-1 justify-between">
             <View className='mt-8'>

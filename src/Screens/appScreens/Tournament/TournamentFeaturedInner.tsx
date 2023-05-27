@@ -3,7 +3,8 @@ import React from 'react'
 import TournamentFeaturedCard from '../../../Components/TournamentFeaturedCard'
 import { divider } from '../../../Assets/Images';
 
-const TournamentFeaturedInner = () => {
+const TournamentFeaturedInner = (props:any) => {
+  const {onPress} = props
     const handleImagePress = () => {};
   return (
     <ScrollView className='group gap-4 mt-1'>
@@ -12,7 +13,7 @@ const TournamentFeaturedInner = () => {
       <ScrollView showsHorizontalScrollIndicator={false}>
         {[1, 2, 3, 4, 5].map((img: any, id: any) => (
             <View key={id}>
-                <TournamentFeaturedCard handleImagePress={handleImagePress} />
+                <TournamentFeaturedCard handleImagePress={onPress} />
           </View>
         ))}
       </ScrollView>

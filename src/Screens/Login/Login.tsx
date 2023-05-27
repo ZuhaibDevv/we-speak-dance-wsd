@@ -1,8 +1,9 @@
-import { StyleSheet, Text, View, Image, Keyboard, StatusBar, Pressable } from 'react-native'
+import { StyleSheet, Text, View, Image, Keyboard, StatusBar, Pressable, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import { TextInput } from 'react-native-paper';
 import { LoginBackground, Logo, BackButton } from '../../Assets/Images'
 import { AuthHeader } from '../../Components'
+import AuthButton from '../../Components/AuthButton/AuthButton';
 
 const Login = ({navigation}:any) => {
   const [email, setEmail] = useState<string>('')
@@ -45,7 +46,7 @@ const Login = ({navigation}:any) => {
                 activeOutlineColor='#ffffffb3'
                 mode='outlined'
                 value={password}
-                onChangeText={text => setEmail(password)}
+                onChangeText={text => setPassword(text)}
               />
             </View>
             <Pressable className='flex text-left items-end' onPress={()=> navigation.navigate("forget-password")}>
@@ -54,9 +55,9 @@ const Login = ({navigation}:any) => {
           </View>
 
 
-          <View className='bg-[#333331] h-12 justify-center rounded-lg mb-5'>
-            <Text className='text-center text-[#ffffff66] text-base font-bold '>Log In</Text>
-          </View>
+          <TouchableOpacity className='z-50' onPress={()=>navigation.navigate('dance-battle-home')}>
+              <AuthButton text="Login" input1={email} input2={password} navigation={navigation} route="dance-battle-home"/>
+            </TouchableOpacity>
         </View>
 
       </View>

@@ -10,7 +10,7 @@ import {
   heightPercentageToDP as hp,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
-import { BackButton, crossIcon } from '../../Assets/Images';
+import {BackButton, crossIcon} from '../../Assets/Images';
 
 const SearchBar = (props: any) => {
   const {
@@ -20,6 +20,7 @@ const SearchBar = (props: any) => {
     IconName,
     placeholderColor,
     searchIcon,
+    onPressNavigation 
   } = props;
 
   return (
@@ -43,7 +44,9 @@ const SearchBar = (props: any) => {
               alignItems: 'center',
               justifyContent: 'center',
               width: wp(10),
-            }}>
+            }}
+            onPress={onPressNavigation }
+            >
             <Image source={searchIcon} />
           </TouchableOpacity>
         ) : (

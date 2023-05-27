@@ -13,7 +13,7 @@ import TournamentFeaturedAll from './TournamentFeaturedAll';
 import TournamentFeaturedInner from './TournamentFeaturedInner';
 import TournamentFeaturedMyTourneys from './TournamentFeaturedMyTourneys';
 
-const TournamentFeaturedMain = () => {
+const TournamentFeaturedMain = ({navigation}:any) => {
   const [search, setSearch] = useState('');
   const [selected, setSelected] = useState(0);
 
@@ -27,6 +27,10 @@ const TournamentFeaturedMain = () => {
   const handleTabNavigation = (id: number) => {
     setSelected(id);
   };
+
+  const handleDetailNavigation = () => {
+    navigation.navigate('leaderboard-main')
+  }
   return (
     <SafeAreaView className="flex flex-1 bg-[#1d1d1b]">
       <ImageBackground source={LoginBackground} className="h-full">
@@ -36,6 +40,7 @@ const TournamentFeaturedMain = () => {
           setSearch={setSearch}
           placeholderColor={COLORS.placeholderColor}
           searchIcon={searchIcon}
+          onPressNavigation = {handleDetailNavigation}
         />
 
         <View className="flex flex-row justify-around">
@@ -49,11 +54,11 @@ const TournamentFeaturedMain = () => {
             />
           ))}
         </View>
-        {selected === 0 && <TournamentFeaturedInner />}
+        {selected === 0 && <TournamentFeaturedInner onPress={handleDetailNavigation}/>}
 
-        {selected === 1 && <TournamentFeaturedMyTourneys />}
+        {selected === 1 && <TournamentFeaturedMyTourneys/>}
 
-        {selected === 2 && <TournamentFeaturedAll />}
+        {selected === 2 && <TournamentFeaturedAll onPress={handleDetailNavigation}/>}
       </ImageBackground>
     </SafeAreaView>
   );
