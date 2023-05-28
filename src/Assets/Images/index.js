@@ -21,10 +21,13 @@ export {default as tournamentHomeImage} from './tournament-home-image.png'
 export {default as divider} from './Divider.png'
 export {default as tournamentFeaturedImage} from './tournament-featured.png'
 export {default as cardBottomShadow} from './card-bottom-shadow.png'
+export {default as cardTopShadow} from './card-top-shadow.png'
 export {default as searchIcon} from './search-icon.png'
 export {default as voteTextImage} from './vote-text.png'
 export {default as voteAvatar} from './vote-avatar.png'
-
+export {default as BackButton2} from './BackButton2.png'
+export {default as RoundImage} from './RoundImage.png'
+export {default as Trophy} from './Trophy.png'
 export {default as IconHeart} from './IconHeart.png';
 export {default as IconBookmark} from './IconBookmark.png';
 export {default as IconShare} from './IconShare.png';
@@ -33,4 +36,12 @@ export {default as IconVote} from './IconVote.png';
 export {default as IconSend} from './IconSend.png';
 export {default as SampleBattleImage} from './SampleBattleImage.png';
 export {default as SampleBattleImage2} from './SampleBattleimage2.png';
+export {default as TournamentRoundHeader} from './TournamentRoundHeader.png';
+export {default as TournamentRoundImageHeader} from './TournamentRoundImageHeader.png';
+export {default as SongImage} from './SongImage.png';
+export {default as TournamentRoundDivider} from './TournamentRoundDivider.png';
+
+
+
+
 

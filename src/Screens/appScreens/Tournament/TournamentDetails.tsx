@@ -1,4 +1,4 @@
-import {Image, ImageBackground, StyleSheet, Text, View} from 'react-native';
+import {Image, ImageBackground, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {
@@ -20,14 +20,20 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {TextSmall} from '../../../Components/Common/CustomText';
 import {TextBig} from '../../../Components/Common/CustomText';
 import {ScrollView} from 'react-native';
+import TournamentDetailsHeaderCard from '../../../Components/TournamentDetailsHeaderCard';
 
-const TournamentDetails = () => {
+const TournamentDetails = ({navigation}:any) => {
+  
+  const handleRound = () => {
+    navigation.navigate('tournament-rounds')
+  }
+
   return (
-    <View className="flex-1 bg-[#1d1d1b]">
+    <View className="h-full bg-[#1d1d1b]">
       <ImageBackground source={LoginBackground} className="flex-1">
-        <View className="px-4 ">
+        <ScrollView showsVerticalScrollIndicator={false} className="px-4 ">
           <View style={styles.topSection}>
-            <Image className="w-full" source={tournamentFeaturedImage} />
+            <TournamentDetailsHeaderCard/>
           </View>
           <View className="my-[3%]">
             <TextNormal center color={COLORS.lightgrey}>
@@ -74,19 +80,21 @@ const TournamentDetails = () => {
           </View>
           <ScrollView className="h-full">
             <View>
-              {[1, 2, 3, 4].map((e, i) => (
-                <View
+              {["Prelims", "Round1", "Round2", "Round3"].map((e, i) => (
+                <TouchableOpacity
                   style={styles.blueBox}
+                  key={i}
+                  onPress={handleRound}
                   className=" rounded-lg -z-10 bg-cyan-200 p-2">
-                  <TextHuge color={COLORS.black}>Prelims </TextHuge>
+                  <TextHuge color={COLORS.black}>{e}</TextHuge>
                   <TextNormal color={COLORS.orange}>
                     Complete 64 Dancers advance{' '}
                   </TextNormal>
-                </View>
+                </TouchableOpacity>
               ))}
             </View>
           </ScrollView>
-        </View>
+        </ScrollView>
       </ImageBackground>
     </View>
   );

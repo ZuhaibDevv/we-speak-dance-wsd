@@ -29,7 +29,7 @@ const TournamentFeaturedMain = ({navigation}:any) => {
   };
 
   const handleDetailNavigation = () => {
-    navigation.navigate('leaderboard-main')
+    navigation.navigate('tournament-details')
   }
   return (
     <SafeAreaView className="flex flex-1 bg-[#1d1d1b]">

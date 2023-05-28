@@ -1,6 +1,8 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import {
   Image,
+  Pressable,
   StyleSheet,
   TextInput,
   TouchableOpacity,
@@ -10,7 +12,7 @@ import {
   heightPercentageToDP as hp,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
-import {BackButton, crossIcon} from '../../Assets/Images';
+import { BackButton, crossIcon } from '../../Assets/Images';
 
 const SearchBar = (props: any) => {
   const {
@@ -20,15 +22,17 @@ const SearchBar = (props: any) => {
     IconName,
     placeholderColor,
     searchIcon,
-    onPressNavigation 
+    onPressNavigation,
   } = props;
 
+  const navigation = useNavigation();
   return (
     <View style={styles.container} className="px-2">
-      <TouchableOpacity
+      <Pressable
+        onPress={() => navigation.goBack()}
         style={{alignItems: 'center', justifyContent: 'center', width: wp(10)}}>
         <Image source={BackButton} />
-      </TouchableOpacity>
+      </Pressable>
 
       <View className="flex-1 flex-row items-center justify-center bg-[#363431] ml-3 rounded-md">
         <TextInput
@@ -45,8 +49,7 @@ const SearchBar = (props: any) => {
               justifyContent: 'center',
               width: wp(10),
             }}
-            onPress={onPressNavigation }
-            >
+            onPress={onPressNavigation}>
             <Image source={searchIcon} />
           </TouchableOpacity>
         ) : (
