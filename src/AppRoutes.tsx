@@ -22,6 +22,7 @@ import TournamentFeaturedMain from './Screens/appScreens/Tournament/TournamentFe
 import LeaderBoardMain from './Screens/LeaderBoardScreens/LeaderboardMain/LeaderBoardMain'
 import Voting from './Screens/appScreens/Voting/Voting'
 import TournamentRounds from './Screens/appScreens/Tournament/TournamentRounds'
+import LeaderBoardWeekly from './Screens/LeaderBoardScreens/LeaderBoardWeekly/LeaderBoardWeekly'
 
 
 const Stack = createNativeStackNavigator()
@@ -41,6 +42,7 @@ const AppRoutes = () => {
       <Stack.Screen name="tournament-featured-main" component={TournamentFeaturedMain} options={{headerShown:false}}/>
       <Stack.Screen name="tournament-details" component={TournamentDetails} options={{headerShown: false}}/>
       <Stack.Screen name="leaderboard-main" component={LeaderBoardMain} options={{headerShown:false}}/>
+      <Stack.Screen name="leaderboard-weekly" component={LeaderBoardWeekly} options={{headerShown:false}}/>
       <Stack.Screen name="voting" component={Voting} options={{headerShown:false}}/>
       <Stack.Screen name="tournament-rounds" component={TournamentRounds} options={{headerShown:false}}/>
 

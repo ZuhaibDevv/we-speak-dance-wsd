@@ -1,10 +1,11 @@
-import {Text, View, Image} from 'react-native';
+import {Text, View, Image, Pressable} from 'react-native';
 import React from 'react';
 import {BackButton} from '../../Assets/Images';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import { useNavigation } from '@react-navigation/native';
 
 interface LeaderBoardHeaderProps {
   middleText: string;
@@ -17,13 +18,15 @@ const LeaderBoardHeader = ({
   rightText,
   containerStyle,
 }: LeaderBoardHeaderProps) => {
+
+  const navigation = useNavigation()
   return (
     <View
       style={{marginTop: hp('6%')}}
-      className={` flex flex-row justify-between items-center    ${containerStyle} `}>
-      <View className=" h-10 w-10">
+      className={` flex flex-row justify-between items-center ${containerStyle} `}>
+      <Pressable className=" h-10 w-10" onPress={() => navigation.goBack()}>
         <Image className="h-full w-full" source={BackButton} />
-      </View>
+      </Pressable>
       <View>
         <Text
           className="text-white text-xl  font-medium leading-5"
