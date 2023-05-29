@@ -24,3 +24,7 @@ export {default as tournamentHomeImage} from './tournament-home-image.png';
 export {default as tournamentFeaturedImage} from './tournament-featured.png';
 export {default as cardBottomShadow} from './card-bottom-shadow.png';
 export {default as searchIcon} from './IconSearch.png';
+export {default as crossIcon} from './crossIcon.png';
+export {default as MusicIcon} from './MusicIcon.png';
+export {default as MusicPlayIcon} from './musicPlayIcon.png';
+export {default as ManSuccessIcon} from './successManIcon.png';

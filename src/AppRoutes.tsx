@@ -8,18 +8,25 @@ import {
   LeaderboardWeekly,
   DanceBattleHome,
   TournamentDetails,
+  SelectMusic
 } from './Screens';
+import GetUploaded from './Screens/CreateUploadDanceScreens/GetUploaded';
+import Success from './Screens/CreateUploadDanceScreens/Success';
+
 
 const AppRoutes = () => {
   return (
-    <SafeAreaView className="flex   h-full ">
+    <SafeAreaView className="flex h-full ">
       <StatusBar
         animated={true}
         backgroundColor="transparent"
         barStyle={'dark-content'}
         translucent={true}
       />
-      <TournamentDetails />
+      {/* <TournamentDetails /> */}
+      {/* <SelectMusic/> */}
+      {/* <GetUploaded/> */}
+      <Success/>
     </SafeAreaView>
   );
 };

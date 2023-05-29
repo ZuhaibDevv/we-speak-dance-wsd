@@ -29,7 +29,7 @@ const SearchBar = (props: any) => {
         <Image source={BackButton} />
       </TouchableOpacity>
 
-      <View className="flex-1 flex-row items-center justify-center bg-[#363431] ml-3 rounded-md">
+      <View className="flex-1 flex-row items-center justify-center bg-[#363431] ml-3 rounded-md p-2">
         <TextInput
           value={search}
           onChangeText={txt => setSearch(txt)}
