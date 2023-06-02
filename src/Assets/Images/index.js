@@ -28,3 +28,6 @@ export {default as crossIcon} from './crossIcon.png';
 export {default as MusicIcon} from './MusicIcon.png';
 export {default as MusicPlayIcon} from './musicPlayIcon.png';
 export {default as ManSuccessIcon} from './successManIcon.png';
+export {default as IconStart} from './IconStart.png';
+export {default as IconStop} from './IconStop.png';
+export {default as IconRefresh} from './VectorIconR.png';

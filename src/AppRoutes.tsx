@@ -8,11 +8,11 @@ import {
   LeaderboardWeekly,
   DanceBattleHome,
   TournamentDetails,
-  SelectMusic
+  SelectMusic,
 } from './Screens';
 import GetUploaded from './Screens/CreateUploadDanceScreens/GetUploaded';
 import Success from './Screens/CreateUploadDanceScreens/Success';
-
+import RecordBattle from './Screens/CreateUploadDanceScreens/RecordBattle';
 
 const AppRoutes = () => {
   return (
@@ -24,9 +24,10 @@ const AppRoutes = () => {
         translucent={true}
       />
       {/* <TournamentDetails /> */}
-      {/* <SelectMusic/> */}
-      {/* <GetUploaded/> */}
-      <Success/>
+      {/* <SelectMusic /> */}
+      {/* <GetUploaded /> */}
+      {/* <Success/> */}
+      <RecordBattle />
     </SafeAreaView>
   );
 };

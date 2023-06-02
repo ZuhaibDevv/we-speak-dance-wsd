@@ -21,7 +21,7 @@ const SelectMusic = () => {
   return (
     <View className="flex-1 bg-[#1d1d1b]">
       <ImageBackground source={LoginBackground} className="flex-1">
-        <View className="px-2">
+        <ScrollView className="px-2" stickyHeaderIndices={[0]}>
           <SearchBar
             search={search}
             setSerch={setSearch}
@@ -45,8 +45,8 @@ const SelectMusic = () => {
               {/* Top Tracks */}
               <View className="w-full">
                 <View className="flex flex-row w-full justify-between flex-wrap">
-                  {[1, 2, 3, 4, 5, 6].map(() => (
-                    <View className="w-[47%] mt-[1%]">
+                  {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((e, i) => (
+                    <View key={i} className="w-[47%] mt-[1%]">
                       <View className="flex flex-row items-center">
                         <Image source={MusicIcon} />
                         <View className="ml-[8%]">
@@ -70,8 +70,8 @@ const SelectMusic = () => {
               {/* Top Tracks */}
               <View className="w-full">
                 <View className="flex flex-row w-full justify-between flex-wrap">
-                  {[1, 2, 3, 4, 5, 6].map(() => (
-                    <View className="w-[47%] mt-[1%]">
+                  {[1, 2, 3, 4, 5, 6].map((e, i) => (
+                    <View key={i} className="w-[47%] mt-[1%]">
                       <View className="flex flex-row items-center">
                         <Image source={MusicIcon} />
                         <View className="ml-[8%]">
@@ -95,8 +95,8 @@ const SelectMusic = () => {
               {/* Top Tracks */}
               <View className="w-full">
                 <View className="flex flex-row w-full justify-between flex-wrap">
-                  {[1, 2, 3, 4, 5, 6].map(() => (
-                    <View className="w-[47%] mt-[1%]">
+                  {[1, 2, 3, 4, 5, 6].map((e, i) => (
+                    <View key={i} className="w-[47%] mt-[1%]">
                       <View className="flex flex-row items-center">
                         <Image source={MusicIcon} />
                         <View className="ml-[8%]">
@@ -114,7 +114,7 @@ const SelectMusic = () => {
               </View>
             </View>
           </ScrollView>
-        </View>
+        </ScrollView>
       </ImageBackground>
     </View>
   );
