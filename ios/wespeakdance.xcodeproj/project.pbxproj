@@ -8,14 +8,81 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* wespeakdanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* wespeakdanceTests.m */; };
+		01338447C3E9465EA17F6037 /* BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 99C88153A22C49F3909FA4F2 /* BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf */; };
+		03E4414EE8864793BF411C6C /* BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55991E0EA8F647FB96804182 /* BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf */; };
+		067703BDDF584101A703D3AB /* BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf in Resources */ = {isa = PBXBuildFile; fileRef = B929AEF83F854DC6BA01F1E0 /* BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf */; };
+		0B06405D6D2843FCACD67150 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C06E843474B6EA5797198 /* Inter-SemiBold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-wespeakdance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-wespeakdance.a */; };
+		0E71507E037A488096332CC6 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E5BEEBA1D0A4503BE68ED19 /* Inter-ExtraLight.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1585CE6FB2BB4140A23FCC6A /* FormulaCondensed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F24B80098604635A5BF5EDA /* FormulaCondensed-Bold.otf */; };
+		15ECA9C8176744439B3ECE75 /* BeausiteClassicTrial-Clear-BF6424edc049804.otf in Resources */ = {isa = PBXBuildFile; fileRef = 69354D4005864240AAC4C628 /* BeausiteClassicTrial-Clear-BF6424edc049804.otf */; };
+		187817F90B93471EA1D67BE6 /* BeausiteClassicTrial-Semibold-BF6424edc0596db.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA2E9DEC84834151AD044EFC /* BeausiteClassicTrial-Semibold-BF6424edc0596db.otf */; };
+		187AA19A25A24A97B36D1962 /* BeausiteClassicTrial-Thin-BF6424edc005b26.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC6654AEB8F24E9AB075B35B /* BeausiteClassicTrial-Thin-BF6424edc005b26.otf */; };
+		1F530CF5BB764619825674E6 /* BeausiteClassicTrial-Black-BF6424edbfdb05c.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23C154BCED0E4524ABC024F2 /* BeausiteClassicTrial-Black-BF6424edbfdb05c.otf */; };
+		20A0A8137F1146738530B916 /* BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf in Resources */ = {isa = PBXBuildFile; fileRef = E84B825A4E4A43509E2B8144 /* BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf */; };
+		23B9E948C4BC426C9C89749A /* BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6295A5277F4A9FB656982F /* BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf */; };
+		241AFD4B684E409EB0292C53 /* BeausiteGrandTrial-Light-BF6424edbf2aacc.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FE37D801B8E4889B29321AE /* BeausiteGrandTrial-Light-BF6424edbf2aacc.otf */; };
+		245CE57F0CFC46A3A06DD2D8 /* FormulaCondensed-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C870217B362433A8E88014A /* FormulaCondensed-Light.otf */; };
+		261D284537F5491694DBAF8E /* BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf in Resources */ = {isa = PBXBuildFile; fileRef = 366AD58BE622400C829D4EAA /* BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf */; };
+		28874904738645F8BC203C31 /* BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22882F69FBE64ED983483700 /* BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf */; };
+		31AD73526CEE41ACADCCFC46 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B782F9766E4052B0466D08 /* Inter-Bold.ttf */; };
+		346E92064DCF4F13AADB3176 /* BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA57D789E034A3BA1DE2FE5 /* BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf */; };
+		374609E5C8F24CEAAAD57CA8 /* BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 722F1ADC4DC2488182FDBB61 /* BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf */; };
+		3A66085A74D74C3394E299D6 /* BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83A2D70C18EB48D383FCCBF3 /* BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf */; };
+		3D3AB3534B4547D6A6BF28FB /* BeausiteFitTrial-Medium-BF6424edbf043fd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 218D5A01353A4B12BEABF23B /* BeausiteFitTrial-Medium-BF6424edbf043fd.otf */; };
+		3DC6C6E1489A4812AE77ED25 /* BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0F2A72DD76A4790A75DBC03 /* BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf */; };
+		40249F9181D24AC2AD8899A7 /* BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DE71B7FC58142BFB419A7F2 /* BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf */; };
+		40FAF5EEAEB74A86A856E4E9 /* BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3486F290E1BC48A3A4040426 /* BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf */; };
+		42B68E43CFEE44BB838ADAC8 /* BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5679D8F7A964AEFA33B9C89 /* BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf */; };
+		4B24FEFF38994989AB4A34B3 /* BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B9C0404CC6641998B84A733 /* BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf */; };
+		50181856A90D409CA63F84B2 /* BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A38B47C7C274E87BCE0D7D4 /* BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf */; };
+		50D00A63AEFA4B8A951F8F7C /* BeausiteClassicTrial-Regular-BF6424edc02738f.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3EE16DCF412F4FB39B2E095F /* BeausiteClassicTrial-Regular-BF6424edc02738f.otf */; };
+		57427DAA22874A59B7F532F3 /* BeausiteFitTrial-Black-BF6424edbf0bf64.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9DCE3ABC4174B0895B23849 /* BeausiteFitTrial-Black-BF6424edbf0bf64.otf */; };
+		5ACFE0DE3096446E80E6A1CD /* BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44FDB19006464DFD99FCFDE2 /* BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf */; };
+		5C3583A9497E42E0AF39391C /* BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf in Resources */ = {isa = PBXBuildFile; fileRef = EEFEBB0BE4D147D785CF0E2F /* BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf */; };
+		65777A499406474C9066181D /* BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf in Resources */ = {isa = PBXBuildFile; fileRef = D09A88FA3C2D4519B114FB6E /* BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf */; };
+		65C6A68F9DA84F3C9786EF21 /* BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A3D920A2DE4986A3C1E097 /* BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf */; };
+		6678F56A03C94504991F63FF /* BeausiteClassicTrial-Bold-BF6424edbfa990f.otf in Resources */ = {isa = PBXBuildFile; fileRef = 643AA95B2DED452DBFDE2213 /* BeausiteClassicTrial-Bold-BF6424edbfa990f.otf */; };
+		674BCD4786AA46B8A967A178 /* BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1B0A4600C13472FA50E136C /* BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf */; };
+		6D7DD0D576A44B6CBA7F8C28 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AF08C0907B841CDA2CD04D6 /* Inter-Medium.ttf */; };
+		737D09F9B7954801855CA3B8 /* BeausiteSlickTrial-Black-BF6424edbe887c8.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7165434659F4FC39649F911 /* BeausiteSlickTrial-Black-BF6424edbe887c8.otf */; };
 		7699B88040F8A987B510C191 /* libPods-wespeakdance-wespeakdanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-wespeakdance-wespeakdanceTests.a */; };
+		7C3BD4F948934AA2814DF5A4 /* BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf in Resources */ = {isa = PBXBuildFile; fileRef = A394AFC3C07F48D4A29DB671 /* BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		4EF795BB25B14391AA2D857F /* FormulaCondensed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CBD8D9FEC46A39B91C729 /* FormulaCondensed-Bold.otf */; };
-		AA53623EF08E48059C5C913B /* BeausiteClassicTrial-R.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2CF5F6D78E24300A8677C1F /* BeausiteClassicTrial-R.otf */; };
+		85B714E22FEB4A4C9338F30B /* BeausiteFitTrial-Light-BF6424edbf3ecef.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15F43E6E8D624B17AD43FFE5 /* BeausiteFitTrial-Light-BF6424edbf3ecef.otf */; };
+		86D55A4ED7F3414CB84BC3B6 /* BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf in Resources */ = {isa = PBXBuildFile; fileRef = 34866D1D3C494970BDAE2DAE /* BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf */; };
+		896679080C4C4E688BF13C3F /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 771842F478B74CE4AA316AEE /* Inter-Light.ttf */; };
+		935F95C5F2524D35B22FD27D /* BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B89FF0339754C6B9BF0BBEB /* BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf */; };
+		942C7E58493C4756988787AB /* BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 422575CC67CA4969AA8664AB /* BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf */; };
+		9AB93FDFEA104EAA8F549BEC /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0A6B2C11BBD4798895CBBB8 /* Inter-Regular.ttf */; };
+		9C02E84417ED445FA162B5DB /* BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF0DC91A2546AD88436C6E /* BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf */; };
+		9C3F75AB41E54D29A53E0920 /* BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf in Resources */ = {isa = PBXBuildFile; fileRef = 185DA514611D458FA394C826 /* BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf */; };
+		9EC435EB3AEE4A7BBFA40A3E /* BeausiteClassicTrial-Light-BF6424edc039e51.otf in Resources */ = {isa = PBXBuildFile; fileRef = D73BFD6EA8BE440792667F0D /* BeausiteClassicTrial-Light-BF6424edc039e51.otf */; };
+		A8A306B372414ABB9582CF80 /* BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5F042E685A041B294A097B5 /* BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf */; };
+		AD62899D0A0D44958393F097 /* BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf in Resources */ = {isa = PBXBuildFile; fileRef = E769C415A75C479D81C369F1 /* BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf */; };
+		ADFA179912574A4F920CB79A /* BeausiteSlickTrial-Light-BF6424edbe884c8.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3AD7CB7F5F44FA9B7050E36 /* BeausiteSlickTrial-Light-BF6424edbe884c8.otf */; };
+		B200E9573EBD45A9BD683C63 /* BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B29783BECE34C7D9EB3523A /* BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf */; };
+		C4BDE479E907464F98A4CD91 /* BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7C4198AFCC249CE91AD942B /* BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf */; };
+		CB3E3779A2524BC0AE2A305F /* beausite-font-family-1689494670-0.zip in Resources */ = {isa = PBXBuildFile; fileRef = FA406899182D469DA0732F0F /* beausite-font-family-1689494670-0.zip */; };
+		CE6F19BF1BFE4E7CAC4D64F2 /* BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED550B30B3624A37B0C81A38 /* BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf */; };
+		D245032B68104519AA25DEF1 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2ACB7A400DF4A01A90987A0 /* Inter-Thin.ttf */; };
+		D31F649CFB7345058D927D3D /* BeausiteGrandTrial-Medium-BF6424edbf66b79.otf in Resources */ = {isa = PBXBuildFile; fileRef = D4C4EBE6A00645A0B646F45D /* BeausiteGrandTrial-Medium-BF6424edbf66b79.otf */; };
+		D4E1989EBC9046A3A06593E4 /* BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E0764CB7A4C78B9C84DA3 /* BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf */; };
+		D6AC2CC4F0DA4DD287B12EE6 /* BeausiteFitTrial-Thin-BF6424edbf331f1.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD67C2232D354E108E28DFBE /* BeausiteFitTrial-Thin-BF6424edbf331f1.otf */; };
+		D8E3E8E20E564277915A0C2D /* BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33734791C7714117996304CE /* BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf */; };
+		DD2C76F337DC425EBE2F1DEF /* BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf in Resources */ = {isa = PBXBuildFile; fileRef = C633F12E3DDF4729ADD2F574 /* BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf */; };
+		DFABDAD31C544115AA135120 /* BeausiteGrandTrial-Black-BF6424edbf7383f.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57543506C0CA4918A077E892 /* BeausiteGrandTrial-Black-BF6424edbf7383f.otf */; };
+		E620E0422CD54393B6DA1B04 /* BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 937902C57BDC4D0ABA911B79 /* BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf */; };
+		EAB3A268A26048DD977E918A /* BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E58989F9D394F1392678561 /* BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf */; };
+		ED1D3735DB49460189F4F268 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D474DE26CE5465C92624553 /* Inter-Black.ttf */; };
+		EF6489570B4B4E14BCBCE007 /* BeausiteGrandTrial-Thin-BF6424edbf250f5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8427482922B349CBA01D576A /* BeausiteGrandTrial-Thin-BF6424edbf250f5.otf */; };
+		F7B759D731DE40C2A748C108 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EC2564FCAB442978437A970 /* Inter-ExtraBold.ttf */; };
+		FB67B4AAC59D40E7848938B0 /* Befonts-License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F593B57FA96489EA97DE0B4 /* Befonts-License.txt */; };
+		FB8E306581B5495A8D81D271 /* BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00F86F0051F1443981F4AACB /* BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf */; };
+		FED353FA0F4C4563AF52F16C /* BeausiteSlickTrial-Medium-BF6424edbe765d4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6447412A8ACE44D1BB4F2BCC /* BeausiteSlickTrial-Medium-BF6424edbe765d4.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +99,89 @@
 		00E356EE1AD99517003FC87E /* wespeakdanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wespeakdanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* wespeakdanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wespeakdanceTests.m; sourceTree = "<group>"; };
+		00F86F0051F1443981F4AACB /* BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* wespeakdance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wespeakdance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = wespeakdance/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = wespeakdance/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = wespeakdance/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = wespeakdance/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wespeakdance/main.m; sourceTree = "<group>"; };
+		15F43E6E8D624B17AD43FFE5 /* BeausiteFitTrial-Light-BF6424edbf3ecef.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-Light-BF6424edbf3ecef.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-Light-BF6424edbf3ecef.otf"; sourceTree = "<group>"; };
+		185DA514611D458FA394C826 /* BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-wespeakdance-wespeakdanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wespeakdance-wespeakdanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F593B57FA96489EA97DE0B4 /* Befonts-License.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Befonts-License.txt"; path = "../assets/fonts/beausite-font-family-1689494670-0/Befonts-License.txt"; sourceTree = "<group>"; };
+		1FE37D801B8E4889B29321AE /* BeausiteGrandTrial-Light-BF6424edbf2aacc.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-Light-BF6424edbf2aacc.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-Light-BF6424edbf2aacc.otf"; sourceTree = "<group>"; };
+		218D5A01353A4B12BEABF23B /* BeausiteFitTrial-Medium-BF6424edbf043fd.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-Medium-BF6424edbf043fd.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-Medium-BF6424edbf043fd.otf"; sourceTree = "<group>"; };
+		22882F69FBE64ED983483700 /* BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf"; sourceTree = "<group>"; };
+		23C154BCED0E4524ABC024F2 /* BeausiteClassicTrial-Black-BF6424edbfdb05c.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Black-BF6424edbfdb05c.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Black-BF6424edbfdb05c.otf"; sourceTree = "<group>"; };
+		2B9C0404CC6641998B84A733 /* BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf"; sourceTree = "<group>"; };
+		2E5C06E843474B6EA5797198 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		33734791C7714117996304CE /* BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf"; sourceTree = "<group>"; };
+		34866D1D3C494970BDAE2DAE /* BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf"; sourceTree = "<group>"; };
+		3486F290E1BC48A3A4040426 /* BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf"; sourceTree = "<group>"; };
+		366AD58BE622400C829D4EAA /* BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf"; sourceTree = "<group>"; };
+		3B29783BECE34C7D9EB3523A /* BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-wespeakdance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespeakdance.debug.xcconfig"; path = "Target Support Files/Pods-wespeakdance/Pods-wespeakdance.debug.xcconfig"; sourceTree = "<group>"; };
+		3EE16DCF412F4FB39B2E095F /* BeausiteClassicTrial-Regular-BF6424edc02738f.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Regular-BF6424edc02738f.otf"; path = "../assets/fonts/BeausiteClassicTrial-Regular-BF6424edc02738f.otf"; sourceTree = "<group>"; };
+		422575CC67CA4969AA8664AB /* BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf"; sourceTree = "<group>"; };
+		44FDB19006464DFD99FCFDE2 /* BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf"; sourceTree = "<group>"; };
+		4AA57D789E034A3BA1DE2FE5 /* BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf"; sourceTree = "<group>"; };
+		4F1E0764CB7A4C78B9C84DA3 /* BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf"; sourceTree = "<group>"; };
+		55991E0EA8F647FB96804182 /* BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-wespeakdance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespeakdance.release.xcconfig"; path = "Target Support Files/Pods-wespeakdance/Pods-wespeakdance.release.xcconfig"; sourceTree = "<group>"; };
+		57543506C0CA4918A077E892 /* BeausiteGrandTrial-Black-BF6424edbf7383f.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-Black-BF6424edbf7383f.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-Black-BF6424edbf7383f.otf"; sourceTree = "<group>"; };
+		5ADF0DC91A2546AD88436C6E /* BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-wespeakdance-wespeakdanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespeakdance-wespeakdanceTests.debug.xcconfig"; path = "Target Support Files/Pods-wespeakdance-wespeakdanceTests/Pods-wespeakdance-wespeakdanceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-wespeakdance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wespeakdance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		643AA95B2DED452DBFDE2213 /* BeausiteClassicTrial-Bold-BF6424edbfa990f.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Bold-BF6424edbfa990f.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Bold-BF6424edbfa990f.otf"; sourceTree = "<group>"; };
+		6447412A8ACE44D1BB4F2BCC /* BeausiteSlickTrial-Medium-BF6424edbe765d4.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-Medium-BF6424edbe765d4.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-Medium-BF6424edbe765d4.otf"; sourceTree = "<group>"; };
+		69354D4005864240AAC4C628 /* BeausiteClassicTrial-Clear-BF6424edc049804.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Clear-BF6424edc049804.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Clear-BF6424edc049804.otf"; sourceTree = "<group>"; };
+		6C6295A5277F4A9FB656982F /* BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf"; sourceTree = "<group>"; };
+		6E5BEEBA1D0A4503BE68ED19 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6F24B80098604635A5BF5EDA /* FormulaCondensed-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FormulaCondensed-Bold.otf"; path = "../assets/fonts/FormulaCondensed-Bold.otf"; sourceTree = "<group>"; };
+		722F1ADC4DC2488182FDBB61 /* BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf"; sourceTree = "<group>"; };
+		771842F478B74CE4AA316AEE /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		7D474DE26CE5465C92624553 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = wespeakdance/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A2D70C18EB48D383FCCBF3 /* BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf"; sourceTree = "<group>"; };
+		8427482922B349CBA01D576A /* BeausiteGrandTrial-Thin-BF6424edbf250f5.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-Thin-BF6424edbf250f5.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-Thin-BF6424edbf250f5.otf"; sourceTree = "<group>"; };
+		84B782F9766E4052B0466D08 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-wespeakdance-wespeakdanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wespeakdance-wespeakdanceTests.release.xcconfig"; path = "Target Support Files/Pods-wespeakdance-wespeakdanceTests/Pods-wespeakdance-wespeakdanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A38B47C7C274E87BCE0D7D4 /* BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf"; sourceTree = "<group>"; };
+		8B89FF0339754C6B9BF0BBEB /* BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf"; sourceTree = "<group>"; };
+		8C870217B362433A8E88014A /* FormulaCondensed-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FormulaCondensed-Light.otf"; path = "../assets/fonts/FormulaCondensed-Light.otf"; sourceTree = "<group>"; };
+		8E58989F9D394F1392678561 /* BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf"; sourceTree = "<group>"; };
+		8EC2564FCAB442978437A970 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		92A3D920A2DE4986A3C1E097 /* BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf"; sourceTree = "<group>"; };
+		937902C57BDC4D0ABA911B79 /* BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf"; sourceTree = "<group>"; };
+		99C88153A22C49F3909FA4F2 /* BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf"; sourceTree = "<group>"; };
+		9AF08C0907B841CDA2CD04D6 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		9DE71B7FC58142BFB419A7F2 /* BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf"; sourceTree = "<group>"; };
+		A0F2A72DD76A4790A75DBC03 /* BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf"; sourceTree = "<group>"; };
+		A394AFC3C07F48D4A29DB671 /* BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf"; sourceTree = "<group>"; };
+		A7165434659F4FC39649F911 /* BeausiteSlickTrial-Black-BF6424edbe887c8.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-Black-BF6424edbe887c8.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-Black-BF6424edbe887c8.otf"; sourceTree = "<group>"; };
+		B1B0A4600C13472FA50E136C /* BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf"; sourceTree = "<group>"; };
+		B2ACB7A400DF4A01A90987A0 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		B5F042E685A041B294A097B5 /* BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf"; sourceTree = "<group>"; };
+		B929AEF83F854DC6BA01F1E0 /* BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf"; sourceTree = "<group>"; };
+		BA2E9DEC84834151AD044EFC /* BeausiteClassicTrial-Semibold-BF6424edc0596db.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Semibold-BF6424edc0596db.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Semibold-BF6424edc0596db.otf"; sourceTree = "<group>"; };
+		BC6654AEB8F24E9AB075B35B /* BeausiteClassicTrial-Thin-BF6424edc005b26.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Thin-BF6424edc005b26.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Thin-BF6424edc005b26.otf"; sourceTree = "<group>"; };
+		C0A6B2C11BBD4798895CBBB8 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		C633F12E3DDF4729ADD2F574 /* BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf"; sourceTree = "<group>"; };
+		C7C4198AFCC249CE91AD942B /* BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf"; sourceTree = "<group>"; };
+		D09A88FA3C2D4519B114FB6E /* BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf"; sourceTree = "<group>"; };
+		D3AD7CB7F5F44FA9B7050E36 /* BeausiteSlickTrial-Light-BF6424edbe884c8.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-Light-BF6424edbe884c8.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-Light-BF6424edbe884c8.otf"; sourceTree = "<group>"; };
+		D4C4EBE6A00645A0B646F45D /* BeausiteGrandTrial-Medium-BF6424edbf66b79.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-Medium-BF6424edbf66b79.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-Medium-BF6424edbf66b79.otf"; sourceTree = "<group>"; };
+		D5679D8F7A964AEFA33B9C89 /* BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf"; sourceTree = "<group>"; };
+		D73BFD6EA8BE440792667F0D /* BeausiteClassicTrial-Light-BF6424edc039e51.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteClassicTrial-Light-BF6424edc039e51.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteClassicTrial-Light-BF6424edc039e51.otf"; sourceTree = "<group>"; };
+		DD67C2232D354E108E28DFBE /* BeausiteFitTrial-Thin-BF6424edbf331f1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-Thin-BF6424edbf331f1.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-Thin-BF6424edbf331f1.otf"; sourceTree = "<group>"; };
+		E769C415A75C479D81C369F1 /* BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf"; sourceTree = "<group>"; };
+		E84B825A4E4A43509E2B8144 /* BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		1D4CBD8D9FEC46A39B91C729 /* FormulaCondensed-Bold.otf */ = {isa = PBXFileReference; name = "FormulaCondensed-Bold.otf"; path = "../src/Assets/Fonts/FormulaCondensed-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F2CF5F6D78E24300A8677C1F /* BeausiteClassicTrial-R.otf */ = {isa = PBXFileReference; name = "BeausiteClassicTrial-R.otf"; path = "../src/Assets/Fonts/BeausiteClassicTrial-R.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED550B30B3624A37B0C81A38 /* BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf"; sourceTree = "<group>"; };
+		EEFEBB0BE4D147D785CF0E2F /* BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf"; sourceTree = "<group>"; };
+		F9DCE3ABC4174B0895B23849 /* BeausiteFitTrial-Black-BF6424edbf0bf64.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BeausiteFitTrial-Black-BF6424edbf0bf64.otf"; path = "../assets/fonts/beausite-font-family-1689494670-0/BeausiteFitTrial-Black-BF6424edbf0bf64.otf"; sourceTree = "<group>"; };
+		FA406899182D469DA0732F0F /* beausite-font-family-1689494670-0.zip */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "beausite-font-family-1689494670-0.zip"; path = "../assets/fonts/beausite-font-family-1689494670-0.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +244,83 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		31DEAECFA8B4422BABE577F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EE16DCF412F4FB39B2E095F /* BeausiteClassicTrial-Regular-BF6424edc02738f.otf */,
+				6F24B80098604635A5BF5EDA /* FormulaCondensed-Bold.otf */,
+				8C870217B362433A8E88014A /* FormulaCondensed-Light.otf */,
+				23C154BCED0E4524ABC024F2 /* BeausiteClassicTrial-Black-BF6424edbfdb05c.otf */,
+				8B89FF0339754C6B9BF0BBEB /* BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf */,
+				643AA95B2DED452DBFDE2213 /* BeausiteClassicTrial-Bold-BF6424edbfa990f.otf */,
+				4F1E0764CB7A4C78B9C84DA3 /* BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf */,
+				69354D4005864240AAC4C628 /* BeausiteClassicTrial-Clear-BF6424edc049804.otf */,
+				8A38B47C7C274E87BCE0D7D4 /* BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf */,
+				D73BFD6EA8BE440792667F0D /* BeausiteClassicTrial-Light-BF6424edc039e51.otf */,
+				33734791C7714117996304CE /* BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf */,
+				5ADF0DC91A2546AD88436C6E /* BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf */,
+				55991E0EA8F647FB96804182 /* BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf */,
+				366AD58BE622400C829D4EAA /* BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf */,
+				BA2E9DEC84834151AD044EFC /* BeausiteClassicTrial-Semibold-BF6424edc0596db.otf */,
+				34866D1D3C494970BDAE2DAE /* BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf */,
+				BC6654AEB8F24E9AB075B35B /* BeausiteClassicTrial-Thin-BF6424edc005b26.otf */,
+				D09A88FA3C2D4519B114FB6E /* BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf */,
+				2B9C0404CC6641998B84A733 /* BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf */,
+				422575CC67CA4969AA8664AB /* BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf */,
+				44FDB19006464DFD99FCFDE2 /* BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf */,
+				83A2D70C18EB48D383FCCBF3 /* BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf */,
+				F9DCE3ABC4174B0895B23849 /* BeausiteFitTrial-Black-BF6424edbf0bf64.otf */,
+				A394AFC3C07F48D4A29DB671 /* BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf */,
+				B929AEF83F854DC6BA01F1E0 /* BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf */,
+				22882F69FBE64ED983483700 /* BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf */,
+				15F43E6E8D624B17AD43FFE5 /* BeausiteFitTrial-Light-BF6424edbf3ecef.otf */,
+				937902C57BDC4D0ABA911B79 /* BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf */,
+				218D5A01353A4B12BEABF23B /* BeausiteFitTrial-Medium-BF6424edbf043fd.otf */,
+				00F86F0051F1443981F4AACB /* BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf */,
+				3486F290E1BC48A3A4040426 /* BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf */,
+				4AA57D789E034A3BA1DE2FE5 /* BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf */,
+				DD67C2232D354E108E28DFBE /* BeausiteFitTrial-Thin-BF6424edbf331f1.otf */,
+				185DA514611D458FA394C826 /* BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf */,
+				57543506C0CA4918A077E892 /* BeausiteGrandTrial-Black-BF6424edbf7383f.otf */,
+				E84B825A4E4A43509E2B8144 /* BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf */,
+				ED550B30B3624A37B0C81A38 /* BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf */,
+				92A3D920A2DE4986A3C1E097 /* BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf */,
+				1FE37D801B8E4889B29321AE /* BeausiteGrandTrial-Light-BF6424edbf2aacc.otf */,
+				6C6295A5277F4A9FB656982F /* BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf */,
+				D4C4EBE6A00645A0B646F45D /* BeausiteGrandTrial-Medium-BF6424edbf66b79.otf */,
+				B1B0A4600C13472FA50E136C /* BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf */,
+				3B29783BECE34C7D9EB3523A /* BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf */,
+				B5F042E685A041B294A097B5 /* BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf */,
+				8427482922B349CBA01D576A /* BeausiteGrandTrial-Thin-BF6424edbf250f5.otf */,
+				99C88153A22C49F3909FA4F2 /* BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf */,
+				A7165434659F4FC39649F911 /* BeausiteSlickTrial-Black-BF6424edbe887c8.otf */,
+				C633F12E3DDF4729ADD2F574 /* BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf */,
+				D5679D8F7A964AEFA33B9C89 /* BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf */,
+				EEFEBB0BE4D147D785CF0E2F /* BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf */,
+				D3AD7CB7F5F44FA9B7050E36 /* BeausiteSlickTrial-Light-BF6424edbe884c8.otf */,
+				A0F2A72DD76A4790A75DBC03 /* BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf */,
+				6447412A8ACE44D1BB4F2BCC /* BeausiteSlickTrial-Medium-BF6424edbe765d4.otf */,
+				E769C415A75C479D81C369F1 /* BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf */,
+				9DE71B7FC58142BFB419A7F2 /* BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf */,
+				C7C4198AFCC249CE91AD942B /* BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf */,
+				722F1ADC4DC2488182FDBB61 /* BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf */,
+				8E58989F9D394F1392678561 /* BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf */,
+				7D474DE26CE5465C92624553 /* Inter-Black.ttf */,
+				84B782F9766E4052B0466D08 /* Inter-Bold.ttf */,
+				8EC2564FCAB442978437A970 /* Inter-ExtraBold.ttf */,
+				6E5BEEBA1D0A4503BE68ED19 /* Inter-ExtraLight.ttf */,
+				771842F478B74CE4AA316AEE /* Inter-Light.ttf */,
+				9AF08C0907B841CDA2CD04D6 /* Inter-Medium.ttf */,
+				C0A6B2C11BBD4798895CBBB8 /* Inter-Regular.ttf */,
+				2E5C06E843474B6EA5797198 /* Inter-SemiBold.ttf */,
+				B2ACB7A400DF4A01A90987A0 /* Inter-Thin.ttf */,
+				1F593B57FA96489EA97DE0B4 /* Befonts-License.txt */,
+				FA406899182D469DA0732F0F /* beausite-font-family-1689494670-0.zip */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,16 +363,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		31DEAECFA8B4422BABE577F1 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				1D4CBD8D9FEC46A39B91C729 /* FormulaCondensed-Bold.otf */,
-				F2CF5F6D78E24300A8677C1F /* BeausiteClassicTrial-R.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -259,8 +460,75 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				4EF795BB25B14391AA2D857F /* FormulaCondensed-Bold.otf in Resources */,
-				AA53623EF08E48059C5C913B /* BeausiteClassicTrial-R.otf in Resources */,
+				50D00A63AEFA4B8A951F8F7C /* BeausiteClassicTrial-Regular-BF6424edc02738f.otf in Resources */,
+				1585CE6FB2BB4140A23FCC6A /* FormulaCondensed-Bold.otf in Resources */,
+				245CE57F0CFC46A3A06DD2D8 /* FormulaCondensed-Light.otf in Resources */,
+				1F530CF5BB764619825674E6 /* BeausiteClassicTrial-Black-BF6424edbfdb05c.otf in Resources */,
+				935F95C5F2524D35B22FD27D /* BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf in Resources */,
+				6678F56A03C94504991F63FF /* BeausiteClassicTrial-Bold-BF6424edbfa990f.otf in Resources */,
+				D4E1989EBC9046A3A06593E4 /* BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf in Resources */,
+				15ECA9C8176744439B3ECE75 /* BeausiteClassicTrial-Clear-BF6424edc049804.otf in Resources */,
+				50181856A90D409CA63F84B2 /* BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf in Resources */,
+				9EC435EB3AEE4A7BBFA40A3E /* BeausiteClassicTrial-Light-BF6424edc039e51.otf in Resources */,
+				D8E3E8E20E564277915A0C2D /* BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf in Resources */,
+				9C02E84417ED445FA162B5DB /* BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf in Resources */,
+				03E4414EE8864793BF411C6C /* BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf in Resources */,
+				261D284537F5491694DBAF8E /* BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf in Resources */,
+				187817F90B93471EA1D67BE6 /* BeausiteClassicTrial-Semibold-BF6424edc0596db.otf in Resources */,
+				86D55A4ED7F3414CB84BC3B6 /* BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf in Resources */,
+				187AA19A25A24A97B36D1962 /* BeausiteClassicTrial-Thin-BF6424edc005b26.otf in Resources */,
+				65777A499406474C9066181D /* BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf in Resources */,
+				4B24FEFF38994989AB4A34B3 /* BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf in Resources */,
+				942C7E58493C4756988787AB /* BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf in Resources */,
+				5ACFE0DE3096446E80E6A1CD /* BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf in Resources */,
+				3A66085A74D74C3394E299D6 /* BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf in Resources */,
+				57427DAA22874A59B7F532F3 /* BeausiteFitTrial-Black-BF6424edbf0bf64.otf in Resources */,
+				7C3BD4F948934AA2814DF5A4 /* BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf in Resources */,
+				067703BDDF584101A703D3AB /* BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf in Resources */,
+				28874904738645F8BC203C31 /* BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf in Resources */,
+				85B714E22FEB4A4C9338F30B /* BeausiteFitTrial-Light-BF6424edbf3ecef.otf in Resources */,
+				E620E0422CD54393B6DA1B04 /* BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf in Resources */,
+				3D3AB3534B4547D6A6BF28FB /* BeausiteFitTrial-Medium-BF6424edbf043fd.otf in Resources */,
+				FB8E306581B5495A8D81D271 /* BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf in Resources */,
+				40FAF5EEAEB74A86A856E4E9 /* BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf in Resources */,
+				346E92064DCF4F13AADB3176 /* BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf in Resources */,
+				D6AC2CC4F0DA4DD287B12EE6 /* BeausiteFitTrial-Thin-BF6424edbf331f1.otf in Resources */,
+				9C3F75AB41E54D29A53E0920 /* BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf in Resources */,
+				DFABDAD31C544115AA135120 /* BeausiteGrandTrial-Black-BF6424edbf7383f.otf in Resources */,
+				20A0A8137F1146738530B916 /* BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf in Resources */,
+				CE6F19BF1BFE4E7CAC4D64F2 /* BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf in Resources */,
+				65C6A68F9DA84F3C9786EF21 /* BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf in Resources */,
+				241AFD4B684E409EB0292C53 /* BeausiteGrandTrial-Light-BF6424edbf2aacc.otf in Resources */,
+				23B9E948C4BC426C9C89749A /* BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf in Resources */,
+				D31F649CFB7345058D927D3D /* BeausiteGrandTrial-Medium-BF6424edbf66b79.otf in Resources */,
+				674BCD4786AA46B8A967A178 /* BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf in Resources */,
+				B200E9573EBD45A9BD683C63 /* BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf in Resources */,
+				A8A306B372414ABB9582CF80 /* BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf in Resources */,
+				EF6489570B4B4E14BCBCE007 /* BeausiteGrandTrial-Thin-BF6424edbf250f5.otf in Resources */,
+				01338447C3E9465EA17F6037 /* BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf in Resources */,
+				737D09F9B7954801855CA3B8 /* BeausiteSlickTrial-Black-BF6424edbe887c8.otf in Resources */,
+				DD2C76F337DC425EBE2F1DEF /* BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf in Resources */,
+				42B68E43CFEE44BB838ADAC8 /* BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf in Resources */,
+				5C3583A9497E42E0AF39391C /* BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf in Resources */,
+				ADFA179912574A4F920CB79A /* BeausiteSlickTrial-Light-BF6424edbe884c8.otf in Resources */,
+				3DC6C6E1489A4812AE77ED25 /* BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf in Resources */,
+				FED353FA0F4C4563AF52F16C /* BeausiteSlickTrial-Medium-BF6424edbe765d4.otf in Resources */,
+				AD62899D0A0D44958393F097 /* BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf in Resources */,
+				40249F9181D24AC2AD8899A7 /* BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf in Resources */,
+				C4BDE479E907464F98A4CD91 /* BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf in Resources */,
+				374609E5C8F24CEAAAD57CA8 /* BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf in Resources */,
+				EAB3A268A26048DD977E918A /* BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf in Resources */,
+				ED1D3735DB49460189F4F268 /* Inter-Black.ttf in Resources */,
+				31AD73526CEE41ACADCCFC46 /* Inter-Bold.ttf in Resources */,
+				F7B759D731DE40C2A748C108 /* Inter-ExtraBold.ttf in Resources */,
+				0E71507E037A488096332CC6 /* Inter-ExtraLight.ttf in Resources */,
+				896679080C4C4E688BF13C3F /* Inter-Light.ttf in Resources */,
+				6D7DD0D576A44B6CBA7F8C28 /* Inter-Medium.ttf in Resources */,
+				9AB93FDFEA104EAA8F549BEC /* Inter-Regular.ttf in Resources */,
+				0B06405D6D2843FCACD67150 /* Inter-SemiBold.ttf in Resources */,
+				D245032B68104519AA25DEF1 /* Inter-Thin.ttf in Resources */,
+				FB67B4AAC59D40E7848938B0 /* Befonts-License.txt in Resources */,
+				CB3E3779A2524BC0AE2A305F /* beausite-font-family-1689494670-0.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,7 +849,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -615,6 +883,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -652,7 +921,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -678,6 +947,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

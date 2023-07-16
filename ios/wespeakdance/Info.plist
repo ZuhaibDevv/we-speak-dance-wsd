@@ -53,8 +53,73 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>BeausiteClassicTrial-Regular-BF6424edc02738f.otf</string>
 		<string>FormulaCondensed-Bold.otf</string>
-		<string>BeausiteClassicTrial-R.otf</string>
+		<string>FormulaCondensed-Light.otf</string>
+		<string>BeausiteClassicTrial-Black-BF6424edbfdb05c.otf</string>
+		<string>BeausiteClassicTrial-BlackItalic-BF6424edbf0fde9.otf</string>
+		<string>BeausiteClassicTrial-Bold-BF6424edbfa990f.otf</string>
+		<string>BeausiteClassicTrial-BoldItalic-BF6424edbf4596c.otf</string>
+		<string>BeausiteClassicTrial-Clear-BF6424edc049804.otf</string>
+		<string>BeausiteClassicTrial-ClearItalic-BF6424edc038936.otf</string>
+		<string>BeausiteClassicTrial-Light-BF6424edc039e51.otf</string>
+		<string>BeausiteClassicTrial-LightItalic-BF6424edc039e3a.otf</string>
+		<string>BeausiteClassicTrial-Medium-BF6424edbfe3cb1.otf</string>
+		<string>BeausiteClassicTrial-MediumItalic-BF6424edc01c9ea.otf</string>
+		<string>BeausiteClassicTrial-RegularItalic-BF6424edc00be04.otf</string>
+		<string>BeausiteClassicTrial-Semibold-BF6424edc0596db.otf</string>
+		<string>BeausiteClassicTrial-SemiboldItalic-BF6424edbece070.otf</string>
+		<string>BeausiteClassicTrial-Thin-BF6424edc005b26.otf</string>
+		<string>BeausiteClassicTrial-ThinItalic-BF6424edbfe0db0.otf</string>
+		<string>BeausiteClassicTrial-Ultrablack-BF6424edbfbc2b6.otf</string>
+		<string>BeausiteClassicTrial-UltrablackItalic-BF6424edc00bbb7.otf</string>
+		<string>BeausiteClassicTrial-Ultralight-BF6424edbf30600.otf</string>
+		<string>BeausiteClassicTrial-UltralightItalic-BF6424edbfb21b8.otf</string>
+		<string>BeausiteFitTrial-Black-BF6424edbf0bf64.otf</string>
+		<string>BeausiteFitTrial-BlackItalic-BF6424edbf1f848.otf</string>
+		<string>BeausiteFitTrial-Bold-BF6424edbf2ecf2.otf</string>
+		<string>BeausiteFitTrial-BoldItalic-BF6424edbf46af2.otf</string>
+		<string>BeausiteFitTrial-Light-BF6424edbf3ecef.otf</string>
+		<string>BeausiteFitTrial-LightItalic-BF6424edbf2e6a0.otf</string>
+		<string>BeausiteFitTrial-Medium-BF6424edbf043fd.otf</string>
+		<string>BeausiteFitTrial-MediumItalic-BF6424edbf227a9.otf</string>
+		<string>BeausiteFitTrial-Regular-BF6424edbf3b5a2.otf</string>
+		<string>BeausiteFitTrial-RegularItalic-BF6424edbf30324.otf</string>
+		<string>BeausiteFitTrial-Thin-BF6424edbf331f1.otf</string>
+		<string>BeausiteFitTrial-ThinItalic-BF6424edbf27955.otf</string>
+		<string>BeausiteGrandTrial-Black-BF6424edbf7383f.otf</string>
+		<string>BeausiteGrandTrial-BlackItalic-BF6424edbf38304.otf</string>
+		<string>BeausiteGrandTrial-Bold-BF6424edbf2ab21.otf</string>
+		<string>BeausiteGrandTrial-BoldItalic-BF6424edbf305f0.otf</string>
+		<string>BeausiteGrandTrial-Light-BF6424edbf2aacc.otf</string>
+		<string>BeausiteGrandTrial-LightItalic-BF6424edbf2c7e9.otf</string>
+		<string>BeausiteGrandTrial-Medium-BF6424edbf66b79.otf</string>
+		<string>BeausiteGrandTrial-MediumItalic-BF6424edbf2c6bb.otf</string>
+		<string>BeausiteGrandTrial-Regular-BF6424edbf2c74a.otf</string>
+		<string>BeausiteGrandTrial-RegularItalic-BF6424edbe784e0.otf</string>
+		<string>BeausiteGrandTrial-Thin-BF6424edbf250f5.otf</string>
+		<string>BeausiteGrandTrial-ThinItalic-BF6424edbe89ee8.otf</string>
+		<string>BeausiteSlickTrial-Black-BF6424edbe887c8.otf</string>
+		<string>BeausiteSlickTrial-BlackItalic-BF6424edbe79d39.otf</string>
+		<string>BeausiteSlickTrial-Bold-BF6424edbe87e9c.otf</string>
+		<string>BeausiteSlickTrial-BoldItalic-BF6424edbe8b2aa.otf</string>
+		<string>BeausiteSlickTrial-Light-BF6424edbe884c8.otf</string>
+		<string>BeausiteSlickTrial-LightItalic-BF6424edbe8c5c5.otf</string>
+		<string>BeausiteSlickTrial-Medium-BF6424edbe765d4.otf</string>
+		<string>BeausiteSlickTrial-MediumItalic-BF6424edbe7e10b.otf</string>
+		<string>BeausiteSlickTrial-Regular-BF6424edbe7f34c.otf</string>
+		<string>BeausiteSlickTrial-RegularItalic-BF6424edbe72801.otf</string>
+		<string>BeausiteSlickTrial-Thin-BF6424edbcb21d7.otf</string>
+		<string>BeausiteSlickTrial-ThinItalic-BF6424edbd10202.otf</string>
+		<string>Inter-Black.ttf</string>
+		<string>Inter-Bold.ttf</string>
+		<string>Inter-ExtraBold.ttf</string>
+		<string>Inter-ExtraLight.ttf</string>
+		<string>Inter-Light.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>Inter-Thin.ttf</string>
 	</array>
 </dict>
 </plist>

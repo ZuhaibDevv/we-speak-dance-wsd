@@ -209,6 +209,6 @@ const styles = StyleSheet.create({
   battleDescription: {
     textAlign: 'center',
     color: '#fff',
-    fontFamily: 'BeausiteClassicTrial-R',
+    // fontFamily: 'BeausiteClassicTrial-R',
   },
 });
