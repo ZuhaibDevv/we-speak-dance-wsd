@@ -5,3 +5,4 @@ export {default as Leaderboard} from './LeaderBoardScreens/LeaderboardMain/Leade
 export {default as LeaderboardWeekly} from './LeaderBoardScreens/LeaderBoardWeekly/LeaderBoardWeekly';
 export {default as DanceBattleHome} from './appScreens/DanceBattle/DanceBattleHome';
 export {default as TournamentDetails} from './appScreens/Tournament/TournamentDetails';
+export {default as SelectMusic} from './CreateUploadDanceScreens/SelectMusic';

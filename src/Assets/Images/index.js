@@ -16,8 +16,6 @@ export {default as SocialImgBg} from './SocialImgBg.png';
 export {default as FbIcon} from './FbIcon.png';
 export {default as GoogleIcon} from './GoogleIcon.png';
 export {default as SocialPageLogo} from './SocialPageLogo.png';
-export {default as crossIcon} from './cross-icon.png';
-export {default as tournamentHomeImage} from './tournament-home-image.png'
 export {default as divider} from './Divider.png'
 export {default as tournamentFeaturedImage} from './tournament-featured.png'
 export {default as cardBottomShadow} from './card-bottom-shadow.png'
@@ -40,8 +38,15 @@ export {default as TournamentRoundHeader} from './TournamentRoundHeader.png';
 export {default as TournamentRoundImageHeader} from './TournamentRoundImageHeader.png';
 export {default as SongImage} from './SongImage.png';
 export {default as TournamentRoundDivider} from './TournamentRoundDivider.png';
-
-
-
+export {default as tournamentHomeImage} from './tournament-home-image.png';
+export {default as crossIcon} from './crossIcon.png';
+export {default as MusicIcon} from './MusicIcon.png';
+export {default as MusicPlayIcon} from './musicPlayIcon.png';
+export {default as ManSuccessIcon} from './successManIcon.png';
+export {default as IconStart} from './IconStart.png';
+export {default as IconStop} from './IconStop.png';
+export {default as IconRefresh} from './VectorIconR.png';
+export {default as PlayIcon} from './PlayIcon.png';
+export {default as BtnCheckIcon} from './BtnCheckIcon.png';
 
 

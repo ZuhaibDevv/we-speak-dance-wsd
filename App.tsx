@@ -8,6 +8,7 @@ import { DanceBattleHeader, LeaderboardEveryOne } from './src/Components';
 import LeaderBoardMain from './src/Screens/LeaderBoardScreens/LeaderboardMain/LeaderBoardMain';
 import LeaderBoardWeekly from './src/Screens/LeaderBoardScreens/LeaderBoardWeekly/LeaderBoardWeekly';
 import AppRoutes from './src/AppRoutes';
+import InterOne from './src/Screens/appScreens/Interstial/InterstialOne/InterOne';
 
 
 function App(): JSX.Element {
@@ -20,6 +21,7 @@ function App(): JSX.Element {
         translucent={true}
       />
       <AppRoutes />
+      {/* <InterOne/> */}
       {/* <TournamentHome/> */}
       {/* <TournamentFeaturedMain/> */}
       {/* <Voting/> */}

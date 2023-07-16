@@ -5,6 +5,7 @@ import {
   StyleSheet,
   Text,
   View,
+  TouchableOpacity
 } from 'react-native';
 import React, {useState} from 'react';
 import {
@@ -18,16 +19,26 @@ import {
   SampleBattleImage,
   SampleBattleImage2,
 } from '../../../Assets/Images';
+import {TextNormal} from '../../../Components/Common/CustomText';
+import {COLORS} from '../../../Utils/Constants/themeSetting';
+import { PlayIcon } from '../../../Assets/Images';
 
-const DanceBattleHome = ({navigation}:any) => {
+const DanceBattleHome = ({navigation}: any) => {
   const [tab, setTab] = useState(1);
+  const [enableVote, setEnableVote] = useState(false);
 
   const onTournamentPress = () => {
-    navigation.navigate('tournament-featured-main')
-  }
+    navigation.navigate('tournament-featured-main');
+  };
+
+
   return (
-    <View className="flex-1   bg-[#1d1b1b] ">
-      <DanceBattleHeader onPress={onTournamentPress} middleText={'Dance Battle'} containerStyle={'px-4'} />
+    <View className="flex-1   bg-[#1d1b1b] relative">
+      <DanceBattleHeader
+        onPress={onTournamentPress}
+        middleText={'Dance Battle'}
+        containerStyle={'px-4'}
+      />
       <View className="  flex-row justify-between" style={styles.tabBar}>
         <Pressable
           onPress={() => setTab(1)}
@@ -62,10 +73,13 @@ const DanceBattleHome = ({navigation}:any) => {
         <ScrollView>
           {[1, 2, 3, 4, 5, 6].map((e, i) => (
             <View key={i} style={styles.battleContainer}>
-              <View style={styles.battle}>
-                <Pressable style={styles.voteButton} className="absolute z-10" onPress={()=>navigation.navigate('voting')}>
+              <TouchableOpacity style={styles.battle}  onPress={() => setEnableVote(true)}>
+                <View
+                  style={styles.voteButton}
+                  className="absolute z-10"
+                 >
                   <Image source={IconVote} />
-                </Pressable>
+                </View>
 
                 <View className="flex-1 ">
                   <View className="flex-4/5">
@@ -86,7 +100,7 @@ const DanceBattleHome = ({navigation}:any) => {
                         vandanaHart
                       </Text>
                       <View className="bg-[#CC4A17] opacity-25 rounded-sm max-w-fit ">
-                        <Text className="text-white text-xs px-[4%] max-w-fit ">
+                        <Text className="text-white text-xs px-[4%]  ">
                           Health care
                         </Text>
                       </View>
@@ -119,7 +133,7 @@ const DanceBattleHome = ({navigation}:any) => {
                     </View>
                   </View>
                 </View>
-              </View>
+              </TouchableOpacity>
               <View
                 style={{width: wp('95%'), alignSelf: 'center'}}
                 className="h-0.5 bg-[#B3261E]"></View>
@@ -139,6 +153,32 @@ const DanceBattleHome = ({navigation}:any) => {
           ))}
         </ScrollView>
       )}
+
+      <View className="absolute bottom-0 w-full flex flex-row bg-[#1d1b1b]">
+        <View className="flex flex-1 flex-row px-8 py-5 justify-between items-center text-center">
+          <View>
+            <Pressable onPress={()=>navigation.navigate('select-organization')} className="bg-[#CC4A17] w-[100] h-10 justify-center items-center rounded-md">
+              <TextNormal color={COLORS.white} bold>
+                Join Battle
+              </TextNormal>
+            </Pressable>
+          </View>
+
+          <View>
+            <Pressable disabled={!enableVote && true} onPress={() => navigation.navigate('voting')} className={`${enableVote ? 'bg-[#CC4A17]' : 'bg-[#a4390f]'} w-[100] h-10 justify-center items-center rounded-md`}>
+              <TextNormal color={COLORS.white} bold>
+                Vote
+              </TextNormal>
+            </Pressable>
+          </View>
+
+          <View>
+            <Pressable onPress={() => navigation.navigate('leaderboard-main')} className="bg-[#CC4A17] w-[50] h-[50] justify-center items-center rounded-full">
+              <Image source={PlayIcon}/>
+            </Pressable>
+          </View>
+        </View>
+      </View>
     </View>
   );
 };

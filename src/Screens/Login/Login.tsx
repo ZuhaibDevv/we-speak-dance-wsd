@@ -18,7 +18,7 @@ const Login = ({navigation}:any) => {
         translucent={true} />
       <View className='flex h-full '>
         <Image className='absolute  w-screen h-screen' source={LoginBackground} />
-        <AuthHeader middleText='Login' rightText='Signup' />
+        <AuthHeader middleText='Login' rightText='Signup' secondTextRoute="signup" navigation={navigation}/>
 
         <View className=' justify-between flex-1'>
           <View className='flex gap-3 mt-12'>

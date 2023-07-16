@@ -17,13 +17,17 @@ import {
   LeaderboardWeekly,
   DanceBattleHome,
   TournamentDetails,
+  SelectMusic,
 } from './Screens';
 import TournamentFeaturedMain from './Screens/appScreens/Tournament/TournamentFeaturedMain'
 import LeaderBoardMain from './Screens/LeaderBoardScreens/LeaderboardMain/LeaderBoardMain'
 import Voting from './Screens/appScreens/Voting/Voting'
 import TournamentRounds from './Screens/appScreens/Tournament/TournamentRounds'
 import LeaderBoardWeekly from './Screens/LeaderBoardScreens/LeaderBoardWeekly/LeaderBoardWeekly'
-
+import GetUploaded from './Screens/CreateUploadDanceScreens/GetUploaded';
+import Success from './Screens/CreateUploadDanceScreens/Success';
+import RecordBattle from './Screens/CreateUploadDanceScreens/RecordBattle';
+import SelectOrganization from './Screens/CreateUploadDanceScreens/SelectOrganization'
 
 const Stack = createNativeStackNavigator()
 
@@ -45,14 +49,18 @@ const AppRoutes = () => {
       <Stack.Screen name="leaderboard-weekly" component={LeaderBoardWeekly} options={{headerShown:false}}/>
       <Stack.Screen name="voting" component={Voting} options={{headerShown:false}}/>
       <Stack.Screen name="tournament-rounds" component={TournamentRounds} options={{headerShown:false}}/>
+      <Stack.Screen name="select-organization" component={SelectOrganization} options={{headerShown:false}}/>
+      <Stack.Screen name="upload-dance" component={GetUploaded} options={{headerShown:false}}/>
+      <Stack.Screen name="success" component={Success} options={{headerShown:false}}/>
+      <Stack.Screen name="record-battle" component={RecordBattle} options={{headerShown:false}}/>
+      <Stack.Screen name="select-music" component={SelectMusic} options={{headerShown:false}}/>
+
 
 
       
     </Stack.Navigator>
   )
 }
-
-
 
 
 export default AppRoutes;

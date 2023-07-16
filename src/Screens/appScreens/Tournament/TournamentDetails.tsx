@@ -15,10 +15,10 @@ import {
   TextNormal,
   TextHuge,
   TextSmaller,
+  TextSmall,
+  TextBig
 } from '../../../Components/Common/CustomText';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {TextSmall} from '../../../Components/Common/CustomText';
-import {TextBig} from '../../../Components/Common/CustomText';
 import {ScrollView} from 'react-native';
 import TournamentDetailsHeaderCard from '../../../Components/TournamentDetailsHeaderCard';
 

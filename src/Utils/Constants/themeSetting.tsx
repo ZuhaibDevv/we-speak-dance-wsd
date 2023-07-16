@@ -11,6 +11,7 @@ const COLORS = {
     lightgrey:'#BBBBBB',
     yellow: '#FFC107',
     orange: '#CC4A17',
+    orangeDisabled: '#a4390f',
     placeholderColor: '#666664'
     
 }
