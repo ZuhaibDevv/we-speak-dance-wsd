@@ -22,8 +22,8 @@ export default function ForgetPassword({navigation}: any) {
       <StatusBar
         animated={true}
         translucent={true}
-        backgroundColor="#1d1d1b"
-        barStyle={'dark-content'}
+        backgroundColor="#CC4A17"
+        // barStyle={'dark-content'}
       />
       <ImageBackground source={LoginBackground} className="flex-1 h-screen">
         <View className="flex-1 p-2 ">

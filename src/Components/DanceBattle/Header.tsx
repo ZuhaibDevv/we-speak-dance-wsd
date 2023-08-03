@@ -5,6 +5,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import { useNavigation } from '@react-navigation/native';
 
 // interface DanceBattleHeaderProps {
 //   middleText: string;
@@ -12,16 +13,17 @@ import {
 // }
 
 const DanceBattleHeader = ({middleText, containerStyle, onPress}:any) => {
+  const navigation = useNavigation()
   return (
     <View
-      style={{marginTop: hp('6%')}}
-      className={` flex flex-row justify-between items-center    ${containerStyle} `}>
-      <View className=" h-10 w-10">
+      style={{marginTop: hp('6%'), height: 42}}
+      className={` flex flex-row justify-between items-center  ${containerStyle} `}>
+      <Pressable onPress={()=>navigation.goBack()} className=" h-10 w-10">
         <Image className="h-full w-full" source={BackButton} />
-      </View>
-      <View>
+      </Pressable>
+      <View className='h-full justify-center text-center'>
         <Text
-          className="text-white text-xl  font-medium leading-5"
+          className="text-white text-xl text-center  font-medium "
           style={{fontSize: hp('2.75%')}}>
           {middleText}
         </Text>

@@ -24,7 +24,7 @@ const Signup = ({navigation}:any) => {
       <View className="bg-[#1d1d1b] h-full flex  px-2 ">
         <StatusBar
           animated={true}
-          backgroundColor="#1d1d1b"
+          backgroundColor="#CC4A17"
           barStyle={'dark-content'}
           translucent={true}
         />

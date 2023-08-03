@@ -11,13 +11,13 @@ import {ForgetPasswordImage, LoginBackground} from '../../Assets/Images';
 import {AuthHeader} from '../../Components';
 import AuthButton from '../../Components/AuthButton/AuthButton';
 
-export default function ForgetPasswordTwo() {
+export default function ForgetPasswordTwo({navigation}:any) {
   return (
     <View className="flex h-full bg-[#1d1d1b]">
       <StatusBar
         animated={true}
         translucent={true}
-        backgroundColor="#1d1d1b"
+        backgroundColor="#CC4A17"
         barStyle={'dark-content'}
       />
       <ImageBackground source={LoginBackground} className="flex h-screen ">
@@ -41,7 +41,7 @@ export default function ForgetPasswordTwo() {
                 </Text>
               </View>
             </View>
-            <AuthButton text="Back to Login"/>
+            <AuthButton text="Back to Login" navigation={navigation} route="forget-password-two"/>
           </View>
         </View>
       </ImageBackground>

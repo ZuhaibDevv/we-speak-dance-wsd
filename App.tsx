@@ -16,9 +16,9 @@ function App(): JSX.Element {
     <NavigationContainer>
       <StatusBar
         animated={true}
-        backgroundColor="#1d1d1d"
-        barStyle={'dark-content'}
-        translucent={true}
+        backgroundColor="#CC4A17"
+        // barStyle={'dark-content'}
+        // translucent={true}
       />
       <AppRoutes />
       {/* <InterOne/> */}

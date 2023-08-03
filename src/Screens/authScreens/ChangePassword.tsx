@@ -19,7 +19,7 @@ import {
         <StatusBar
           animated={true}
           translucent={true}
-          backgroundColor="#1d1d1b"
+          backgroundColor="#CC4A17"
           barStyle={'dark-content'}
         />
         <ImageBackground source={LoginBackground} className="flex h-screen ">
