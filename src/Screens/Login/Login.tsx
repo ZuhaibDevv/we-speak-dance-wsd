@@ -21,9 +21,9 @@ const Login = ({navigation}:any) => {
         <AuthHeader middleText='Login' rightText='Signup' secondTextRoute="signup" navigation={navigation}/>
 
         <View className=' justify-between flex-1'>
-          <View className='flex gap-3 mt-0'>
+          <View className='flex gap-3 mt-12'>
             <View className='items-center mb-3'>
-              <Image source={Logo} style={{width: 200, height:100}}/>
+              <Image source={Logo} />
             </View>
             <View >
               <TextInput

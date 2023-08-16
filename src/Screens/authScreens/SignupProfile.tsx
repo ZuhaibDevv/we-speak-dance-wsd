@@ -20,7 +20,7 @@ export default function SignupProfile() {
     <ScrollView className="flex h-full bg-[#1d1d1b]">
       <StatusBar
         animated={true}
-        backgroundColor="#CC4A17"
+        backgroundColor="#1d1d1b"
         barStyle={'dark-content'}
         translucent={true}
       />

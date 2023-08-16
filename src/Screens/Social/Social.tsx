@@ -31,11 +31,11 @@ const Social = ({navigation}:any) => {
 
         {/* CONTENT SECTION*/}
         {/* MAIN__VIEW */}
-        <View className="h-[80%] my-auto flex justify-between">
+        <View className="h-[70%] my-auto flex justify-between">
           {/* Inner__View 1 */}
-          <View className="flex items-center pt-5">
-            <Image source={SocialPageLogo} className="object-contain" style={{width: 250, height:100}}/>
-            <View className="flex justify-center mt-0">
+          <View className="flex items-center pt-11">
+            <Image source={SocialPageLogo} className="object-contain" />
+            <View className="flex justify-center mt-7">
               <Text className="text-[#ffffff99] text-center text-base">
                 Dance with the best and
               </Text>
