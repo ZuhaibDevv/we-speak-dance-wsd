@@ -1,24 +1,16 @@
-import { NavigationContainer } from '@react-navigation/native';
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import { StatusBar } from 'react-native';
-import TournamentFeaturedMain from './src/Screens/appScreens/Tournament/TournamentFeaturedMain';
-import Voting from './src/Screens/appScreens/Voting/Voting';
-import { Dance, DanceBattleHome, Leaderboard, LeaderboardWeekly, TournamentDetails } from './src/Screens';
-import { DanceBattleHeader, LeaderboardEveryOne } from './src/Components';
-import LeaderBoardMain from './src/Screens/LeaderBoardScreens/LeaderboardMain/LeaderBoardMain';
-import LeaderBoardWeekly from './src/Screens/LeaderBoardScreens/LeaderBoardWeekly/LeaderBoardWeekly';
+import {StatusBar} from 'react-native';
 import AppRoutes from './src/AppRoutes';
-import InterOne from './src/Screens/appScreens/Interstial/InterstialOne/InterOne';
-
 
 function App(): JSX.Element {
   return (
     <NavigationContainer>
       <StatusBar
         animated={true}
-        backgroundColor="#CC4A17"
-        // barStyle={'dark-content'}
-        // translucent={true}
+        backgroundColor="#1d1d1d"
+        barStyle={'dark-content'}
+        translucent={true}
       />
       <AppRoutes />
       {/* <InterOne/> */}
